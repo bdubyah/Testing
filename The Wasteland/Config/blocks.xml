@@ -1201,6 +1201,40 @@
 	</block>
 	
 	<block name="DeskRound2">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="42"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Material" value="Msteel"/>
+		<property name="MaxDamage" value="35000"/>
+		<property name="CustomIcon" value="DeskRound"/><property name="CustomIconTint" value="ff5145"/>
+		<property name="PassThroughDamage" value="true"/>
+		<property name="LightOpacity" value="1"/>
+		<property name="Shape" value="ModelEntity"/>	
+		<property name="MultiBlockDim" value="4,1,4"/>
+		<property name="CanPickup" value="false" />
+		<property name="PlaceEverywhere" value="true"/>
+		<property name="AllowAllRotations" value="true"/> 
+		<property name="Model" value="#@modfolder:Resources/OVdesk.unity3d?DeskRound"/><property name="ModelOffset" value="0,0,0"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="35"/>		
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="DeskRound"/>
+			<property name="Item" value="OVDeskKey"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="1"/>
+		</property>
+		<property class="RepairItems"> <property name="resourceForgedSteel" value="35"/> </property>			
+		<drop event="Harvest" name="resourceScrapIron" count="500" tag="allHarvest"/> 
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="1" stick_chance="1"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="EconomicValue" value="5"/>
+		<property name="EconomicBundleSize" value="10"/>
+		<property name="FilterTags" value="fdecor,fdoors"/>
+		<property name="SortOrder1" value="7060"/>
+		<property name="SortOrder2" value="0100"/> 
+	</block>
+	<!-- original
+	<block name="DeskRound2">
 		<property name="Class" value="DoorSecure"/>
 		<property name="CreativeMode" value="Dev"/>
 		<property name="Material" value="Msteel"/>
@@ -1237,11 +1271,11 @@
 		<property name="SortOrder1" value="7060"/>
 		<property name="SortOrder2" value="0100"/> 
 	</block>
-	
+	-->
 	<block name="OVexitdoor">
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Mmetal"/>
-		<property name="MaxDamage" value="10000"/>
+		<property name="MaxDamage" value="25000"/>
 		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -1250,7 +1284,7 @@
 		<property name="Place" value="Door"/>
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="AllowAllRotations" value="true"/>
-		<property name="Model" value="#@modfolder:Resources/VaultDoor1.unity3d?VaultOVexitdoor"/><property name="ModelOffset" value="0,0,0"/>		
+		<property name="Model" value="#@modfolder:Resources/VaultDoor1.unity3d?VaultOVexitdoor"/><property name="ModelOffset" value="0,0,-0.1"/>		
 		<property name="DisplayType" value="blockMulti"/>
 		<property name="MultiBlockDim" value="2,2,1"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="9"/>		
@@ -1258,11 +1292,11 @@
 		<property name="CloseSound" value="close_door_vault"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="OVexitdoorunlocked"/>
-			<property name="Item" value="OVDeskKey"/>
+			<property name="Item" value="OVExitKey"/>
 			<property name="ItemCount" value="1"/>
 			<property name="UpgradeHitCount" value="1"/>
 		</property>
-		<property class="RepairItems"> <property name="resourceForgedIron" value="2"/> </property>	
+		<property class="RepairItems"> <property name="resourceForgedIron" value="200"/> </property>	
 		<drop event="Harvest" name="resourceScrapIron" count="8" tag="allHarvest"/>
 		<drop event="Destroy" count="0"/>
 		<drop event="Destroy" name="resourceScrapBrass" count="2,7" tag="WasteTreasuresDoorHarvest"/>
@@ -1276,7 +1310,7 @@
 	<block name="OVexitdoorunlocked">
 		<property name="Class" value="Door"/>
 		<property name="Material" value="Mmetal"/>
-		<property name="MaxDamage" value="10000"/>
+		<property name="MaxDamage" value="25000"/>
 		<property name="PassThroughDamage" value="true"/>
 		<property name="LightOpacity" value="1"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -1285,7 +1319,7 @@
 		<property name="Place" value="Door"/>
 		<property name="PlaceEverywhere" value="true"/>
 		<property name="AllowAllRotations" value="true"/>
-		<property name="Model" value="#@modfolder:Resources/VaultDoor1.unity3d?VaultOVexitdoor"/><property name="ModelOffset" value="0,0,0"/>		
+		<property name="Model" value="#@modfolder:Resources/VaultDoor1.unity3d?VaultOVexitdoor"/><property name="ModelOffset" value="0,0,-0.1"/>		
 		<property name="DisplayType" value="blockMulti"/>
 		<property name="MultiBlockDim" value="2,2,1"/>
 		<property name="ImposterExchange" value="imposterBlock" param1="9"/>		
@@ -1310,7 +1344,7 @@
 		<property name="CustomIcon" value="kc3" />		
 		<property name="LightOpacity" value="2"/>
 		<property name="CanPickup" value="true" param1="VaultDoorKey"/>
-		<property name="Model" value="#@modfolder:Resources/kc.unity3d?keycard3"/><property name="ModelOffset" value="-0.35,0,0"/>
+		<property name="Model" value="#@modfolder:Resources/kc.unity3d?keycard3_b"/><property name="ModelOffset" value="0,0.001,0"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 		<property class="RepairItems"> <property name="resourceScrapPolymers" value="5"/> </property>		
 		<drop event="Destroy" name="OVExitKey" count="1"/>		
@@ -1324,7 +1358,7 @@
 		<property name="CustomIcon" value="kcM" />		
 		<property name="LightOpacity" value="2"/>
 		<property name="CanPickup" value="true" param1="OVDeskKey"/>
-		<property name="Model" value="#@modfolder:Resources/kc.unity3d?keycardM"/><property name="ModelOffset" value="-0.35,0,0"/>
+		<property name="Model" value="#@modfolder:Resources/kc.unity3d?keycardM_b"/><property name="ModelOffset" value="0,0.001,0"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 		<property class="RepairItems"> <property name="resourceScrapPolymers" value="5"/> </property>		
 		<drop event="Destroy" name="OVExitKey" count="1"/>		
@@ -1338,7 +1372,7 @@
 		<property name="CustomIcon" value="kc2" />		
 		<property name="LightOpacity" value="2"/>
 		<property name="CanPickup" value="true" param1="OVExitKey"/>
-		<property name="Model" value="#@modfolder:Resources/kc.unity3d?keycard2"/><property name="ModelOffset" value="-0.35,0,0"/>
+		<property name="Model" value="#@modfolder:Resources/kc.unity3d?keycard2_b"/><property name="ModelOffset" value="0,0.001,0"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
 		<property class="RepairItems"> <property name="resourceScrapPolymers" value="5"/> </property>		
 		<drop event="Destroy" name="OVExitKey" count="1"/>		
@@ -2386,6 +2420,8 @@
 		<property name="Class" value="Loot"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Path" value="solid"/>
+		<property name="Place" value="TowardsPlacerInverted"/>		
+		<property name="ImposterExchange" value="imposterCTREighth" param1="18"/>
 		<property name="Model" value="#@modfolder:Resources/MiscBlocks.unity3d?OldSafeClosed.prefab"/><property name="ModelOffset" value="0,0,0"/>
 		<property name="Place" value="TowardsPlacerInverted"/>			
 		<property name="OnlySimpleRotations" value="false"/>
@@ -2411,13 +2447,12 @@
 	<block name="OldSafeClosed">
 		<property name="Extends" value="OldSafeClosedInsecure" param1="HandleFace"/>		
 		<property name="Model" value="#@modfolder:Resources/MiscBlocks.unity3d?OldSafeClosed.prefab"/><property name="ModelOffset" value="0,0,0"/>
-		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="AllowAllRotations" value="true"/>
-		<property name="ImposterExchange" value="imposterCTREighth" param1="18"/>
-		<property name="CreativeMode" value="Dev"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="LootList" value="6"/>	
 		<property name="DowngradeBlock" value="OldSafeClosedInsecure"/>
+			<property name="LockPickItem" value="resourceLockPick"/>
+			<property name="LockPickTime" value="15"/>
+			<property name="LockPickBreakChance" value="0.75"/>
 		<property name="SortOrder1" value="7k3t"/>	
 	</block>
 	

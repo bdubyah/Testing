@@ -245,7 +245,7 @@
 		<item name="ammoAB" count="5,15" prob=".005"/>
 	</lootcontainer>
 	
-	<lootcontainer id="940" count="3" size="6,3" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="2" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="940" count="3" size="6,3" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
 		<item group="NukaVendGroup" count="1" prob=".1"/>
 		<item group="SSGroup" count="1" prob=".1"/>		
 	</lootcontainer>
