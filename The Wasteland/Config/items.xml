@@ -649,7 +649,11 @@
 			<property name="Class" value="Quest"/>
 			<property name="QuestGiven" value="questPewPewstart"/>
 			<property name="Delay" value="0"/>
+			<requirement name="CVarCompare" cvar="$oneTimeQuest" operation="LTE" value="0"/>
 		</property>	
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$oneTimeQuest" operation="set" value="1"/>
+		</effect_group>
 	</item>
 
 	<item name="questoldMap">		

@@ -26,11 +26,11 @@ OVExitKey,items,Gun,New,Overseer Exit Key,,,,,
 OVExitKeyDesc,items,Gun,New,Keycard needed to unlock the Overseer's hidden exit door.,,,,,
 
 VaultDoorKey_b,items,Gun,New,Overseer Office Key (B),,,,,
-VaultDoorKey_bDesc,items,Gun,New,Keycard needed to open the Overseer's office.,,,,,
+VaultDoorKey_bDesc,items,Gun,New,Keycard needed to open the Overseer's office. Right click on the door with this keycard equipped to unlock it.,,,,,
 OVDeskKey_b,items,Gun,New,Overseer Desk Key (B),,,,,
-OVDeskKey_bDesc,items,Gun,New,Keycard needed to unlock the Overseer's desk.,,,,,
+OVDeskKey_bDesc,items,Gun,New,Keycard needed to unlock the Overseer's desk. Right click on the desk with this keycard equipped to unlock it.,,,,,
 OVExitKey_b,items,Gun,New,Overseer Exit Key (B),,,,,
-OVExitKey_bDesc,items,Gun,New,Keycard needed to unlock the Overseer's hidden exit door.,,,,,
+OVExitKey_bDesc,items,Gun,New,Keycard needed to unlock the Overseer's hidden exit door. Right click on the door with this keycard equipped to unlock it.,,,,,
 
 NukaColaLight,blocks,blocks,New,Nuka Cola
 NukaQuantumLight,blocks,blocks,New,Nuka Quantum

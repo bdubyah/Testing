@@ -1233,45 +1233,7 @@
 		<property name="SortOrder1" value="7060"/>
 		<property name="SortOrder2" value="0100"/> 
 	</block>
-	<!-- original
-	<block name="DeskRound2">
-		<property name="Class" value="DoorSecure"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Material" value="Msteel"/>
-		<property name="MaxDamage" value="35000"/>
-		<property name="CustomIcon" value="DeskRound"/><property name="CustomIconTint" value="ff5145"/>
-		<property name="PassThroughDamage" value="true"/>
-		<property name="LightOpacity" value="1"/>
-		<property name="Shape" value="ModelEntity"/>		
-		<property name="Tags" value="door"/>
-		<property name="BlockTag" value="Door"/>
-		<property name="MultiBlockDim" value="4,1,4"/>
-		<property name="CanPickup" value="false" />
-		<property name="Place" value="Door"/> 
-		<property name="PlaceEverywhere" value="true"/>
-		<property name="AllowAllRotations" value="true"/> 
-		<property name="Model" value="#@modfolder:Resources/OVdesk.unity3d?DeskRound2"/><property name="ModelOffset" value="0,0,0"/>
-		<property name="ImposterExchange" value="imposterBlock" param1="35"/>		
-		<property name="OpenSound" value="open_hatch_vault"/>
-		<property name="CloseSound" value="close_hatch_vault"/>
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="DeskRound"/>
-			<property name="Item" value="OVDeskKey"/>
-			<property name="ItemCount" value="1"/>
-			<property name="UpgradeHitCount" value="1"/>
-		</property>
-		<property class="RepairItems"> <property name="resourceForgedSteel" value="35"/> </property>			
-		<drop event="Harvest" name="resourceScrapIron" count="500" tag="allHarvest"/> 
-		<drop event="Destroy" count="0"/>
-		<drop event="Fall" name="scrapMetalPile" count="1" prob="1" stick_chance="1"/>
-		<property name="Group" value="Building,advBuilding"/>
-		<property name="EconomicValue" value="5"/>
-		<property name="EconomicBundleSize" value="10"/>
-		<property name="FilterTags" value="fdecor,fdoors"/>
-		<property name="SortOrder1" value="7060"/>
-		<property name="SortOrder2" value="0100"/> 
-	</block>
-	-->
+	
 	<block name="OVexitdoor">
 		<property name="Class" value="DoorSecure"/>
 		<property name="Material" value="Mmetal"/>
@@ -2128,7 +2090,7 @@
 		<property name="Material" value="Mmetal"/>
 		<property name="IsTerrainDecoration" value="false"/>	
 		<property name="Class" value="Loot"/>
-		<property name="LootList" value="71"/>
+		<property name="LootList" value="34"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Path" value="solid"/>
 		<property name="Model" value="#@modfolder:Resources/MiscBlocks.unity3d?MetalBox2.prefab"/><property name="ModelOffset" value="0,0,0"/>
@@ -2156,7 +2118,7 @@
 		<property name="DisplayType" value="blockHardenedMulti"/>
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="Class" value="Loot"/>
-		<property name="LootList" value="71"/>
+		<property name="LootList" value="34"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#@modfolder:Resources/MiscBlocks.unity3d?MetalContainer.prefab"/><property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="2,2,2"/>
@@ -2197,7 +2159,7 @@
 		<property name="DisplayType" value="blockHardenedMulti"/>
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="Class" value="Loot"/>
-		<property name="LootList" value="71"/>
+		<property name="LootList" value="34"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#@modfolder:Resources/MiscBlocks.unity3d?MetalContainer3.prefab"/><property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="2,2,4"/>
@@ -2219,7 +2181,7 @@
 		<property name="Material" value="Mmetal_hard"/>
 		<property name="Class" value="Loot"/>
 		<property name="CustomIcon" value="MetalContainer3"/><property name="CustomIconTint" value="bdffba"/>
-		<property name="LootList" value="71"/>
+		<property name="LootList" value="34"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#@modfolder:Resources/MiscBlocks.unity3d?MetalContainer4.prefab"/><property name="ModelOffset" value="0,0,0"/>
 		<property name="MultiBlockDim" value="1,1,2"/>
@@ -2895,7 +2857,7 @@
 		<property name="CreativeMode" value="Dev"/>		
 		<property name="IsTerrainDecoration" value="false"/>
 		<property name="Class" value="Loot"/>
-		<property name="LootList" value="15"/>
+		<property name="LootList" value="53"/>
 		<property name="Material" value="MwoodReinforced"/>
 		<property name="MaxDamage" value="500"/>
 		<property name="StabilitySupport" value="false"/> 
