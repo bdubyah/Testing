@@ -68,7 +68,8 @@
 	
 	<lootgroup name="RegularEnergyGuns">		
 		<item name="gunLaserPistol" count="1"/>		
-		<item name="gunLaserRifle" count="1"/>		
+		<item name="gunLaserRifle" count="1"/>	
+		<item name="gunLaserShotgun" count="1"/>	
 		<item name="gunPlasmaPistol" count="1"/>			
 		<item name="gunPlasmaRifle" count="1"/>			
 	</lootgroup>
@@ -123,6 +124,7 @@
 	<lootgroup name="EnergyWeaponSchems">
 		<item name="gunLaserPistolSchematic" count="1"/>
 		<item name="gunLaserRifleSchematic" count="1"/>
+		<item name="gunLaserShotgunSchematic" count="1"/>
 		<item name="gunPlasmaPistolSchematic" count="1"/>
 		<item name="gunPlasmaRifleSchematic" count="1"/>		
 	</lootgroup>
