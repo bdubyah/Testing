@@ -16,7 +16,7 @@
   <property name="SleeperVolumeGroup" value="RaidersMix,3,4,RaidersMelee,2,3,RaidersMelee,9,10,RaidersMelee,5,6,RaidersMelee,9,10,RaiderBossMix,1,2" />
   <property name="SleeperIsLootVolume" value="False,False,False,False,False,False" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False" />
-  <property name="SleeperVolumeFlags" value="0,2,2,2,2,2" />
+  <property name="SleeperVolumeFlags" value="0,0,0,2,2,2" />
   <property name="QuestTags" value="clear,fetch,hidden_cache" />
   <property name="Zoning" value="ResidentialNew" />
   <property name="AllowedTownships" value="city,town,rural,wilderness" />

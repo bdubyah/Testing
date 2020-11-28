@@ -3965,7 +3965,6 @@
 		<property name="CustomIcon" value="ammoMFC"/><property name="CustomIconTint" value="523016"/>
 		<property name="Meshfile" value="#@modfolder:Resources/LS1.unity3d?LaserSP"/>
 		<property name="HoldType" value="45"/>
-		<property name="DescriptionKey" value="ammoMFCDesc"/>
 		<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="#@modfolder:Resources/LaserRifle1.unity3d?ammoMFC1"/>
 		<property name="DropScale" value="2"/>
