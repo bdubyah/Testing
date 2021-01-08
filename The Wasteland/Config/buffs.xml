@@ -156,18 +156,17 @@
 	<buff name="buffRailSpike" name_key="Spike" icon="ui_game_symbol_medical" hidden="true">
 		<damage_type value="knockdown"/>
 		<stack_type value="ignore"/>
-		<duration value="4"/>
+		<duration value="5"/>
 		<requirements compare_type="or">
 			<requirement name="NotHasBuff" buff="buffRailSpikeCooldown"/>
 		</requirements>
 
 		<effect_group>
-			<passive_effect name="RunSpeed" operation="perc_set" value="0" />
-			<passive_effect name="WalkSpeed" operation="perc_set" value="0" />
-			<passive_effect name="CrouchSpeed" operation="perc_set" value="0" />
-			<passive_effect name="JumpStrength" operation="perc_set" value="0" />			
-			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="buffRailSpikeBleed,buffRailSpikeCooldown"/>
-			<triggered_effect trigger="onSelfBuffStart" action="Ragdoll" target="self" duration="2"/>
+			<passive_effect name="RunSpeed" operation="perc_set" value=".5" />
+			<passive_effect name="WalkSpeed" operation="perc_set" value=".5" />
+			<passive_effect name="CrouchSpeed" operation="perc_set" value=".5" />
+			<passive_effect name="JumpStrength" operation="perc_set" value=".5" />			
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="buffRailSpikeBleed,buffRailSpikeCooldown"/>			
 		</effect_group>
 	</buff>
 	
@@ -202,9 +201,9 @@
 	
 	<buff name="buffCryo" hidden="true">
 		<damage_type value="stun"/>
-		<stack_type value="replace"/>
+		<stack_type value="effect"/>
 		<duration value="8"/>
-		
+		<!--
 		<effect_group>
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$CryoEffect" operation="set" value="1">
 				<requirement name="NotHasBuff" buff="buffCryoCritCooldown"/>
@@ -215,14 +214,17 @@
 			<triggered_effect trigger="onSelfBuffStack" action="AddBuff" buff="buffCryoCrit">
 				<requirement name="CVarCompare" cvar="CryoEffect" operation="Equals" value="2"/>
 				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25"/>
-				<requirement name="NotHasBuff" buff="buffCryoCrit"/>
 				<requirement name="NotHasBuff" buff="buffCryoCritCooldown"/>
 			</triggered_effect>
+		</effect_group> -->
+		<effect_group>
 			<passive_effect name="HealthLoss" operation="perc_add" value=".25"/>
 			<passive_effect name="RunSpeed" operation="perc_set" value=".4"/>
 			<passive_effect name="WalkSpeed" operation="perc_set" value=".5"/>
 			<passive_effect name="CrouchSpeed" operation="perc_set" value=".4"/>
 			<passive_effect name="JumpStrength" operation="perc_set" value=".5"/>
+		</effect_group>
+		<effect_group>
 			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="Cryo_GP" local_offset="0,0,0" parent_transform="Spine1"/>
 			<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="Cryo_GP" local_offset="0,0,0" parent_transform="Spine1"/>
 			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/NukaGrenades.unity3d?Cryo_GP" local_offset="0,0.25,0" parent_transform="Spine1"/>
@@ -232,10 +234,11 @@
 	
 	<buff name="buffCryoCrit" hidden="true">
 		<damage_type value="stun"/>
-		<stack_type value="ignore"/>
+		<stack_type value="effect"/>
 		<duration value="15"/>			
 			
-		<effect_group>				
+		<effect_group>	
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffCryo"/>
 			<passive_effect name="HealthLoss" operation="perc_add" value=".2"/>
 			<passive_effect name="RunSpeed" operation="perc_set" value="0"/>
 			<passive_effect name="WalkSpeed" operation="perc_set" value="0"/>
@@ -258,15 +261,101 @@
 			
 		<effect_group>				
 			<passive_effect name="HealthLoss" operation="perc_add" value=".1"/>
-			<passive_effect name="RunSpeed" operation="perc_set" value=".3"/>
-			<passive_effect name="WalkSpeed" operation="perc_set" value=".3"/>
-			<passive_effect name="CrouchSpeed" operation="perc_set" value=".3"/>
-			<passive_effect name="JumpStrength" operation="perc_set" value=".3"/>			
+			<passive_effect name="RunSpeed" operation="perc_subtract" value=".3"/>
+			<passive_effect name="WalkSpeed" operation="perc_subtract" value=".3"/>
+			<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".3"/>
+			<passive_effect name="JumpStrength" operation="perc_subtract" value=".3"/>			
 			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="Cryo_GP" local_offset="0,0,0" parent_transform="Spine1"/>
 			<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="Cryo_GP" local_offset="0,0,0" parent_transform="Spine1"/>
 			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/NukaGrenades.unity3d?Cryo_GP" local_offset="0,0.25,0" parent_transform="Spine1"/>
 			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/NukaGrenades.unity3d?Cryo_GP" local_offset="0,0.25,0" parent_transform="Spine1"/>			
 		</effect_group>	
+	</buff>
+	
+	<buff name="buffPAhelmet" hidden="true">
+		<damage_type value="stun"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>	
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPATrigger"/>
+		</effect_group><!--
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPAhelmet">
+				<requirement name="HasBuff" buff="buffPAset"/>
+			</triggered_effect>
+		</effect_group>	-->	
+	</buff>
+	<buff name="buffPAchest" hidden="true">
+		<damage_type value="stun"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>	
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPATrigger"/>
+		</effect_group><!--
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPAchest">
+				<requirement name="HasBuff" buff="buffPAset"/>
+			</triggered_effect>
+		</effect_group>	-->
+	</buff>
+	<buff name="buffPAarms" hidden="true">
+		<damage_type value="stun"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>	
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPATrigger"/>
+		</effect_group><!--
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPAarms">
+				<requirement name="HasBuff" buff="buffPAset"/>
+			</triggered_effect>
+		</effect_group>	-->
+	</buff>
+	<buff name="buffPAlegs" hidden="true">
+		<damage_type value="stun"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>	
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPATrigger"/>
+		</effect_group><!--
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPAlegs">
+				<requirement name="HasBuff" buff="buffPAset"/>
+			</triggered_effect>
+		</effect_group>	-->
+	</buff>
+	<buff name="buffPAboots" hidden="true">
+		<damage_type value="stun"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>	
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPATrigger"/>
+		</effect_group><!--
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPAboots">
+				<requirement name="HasBuff" buff="buffPAset"/>
+			</triggered_effect>
+		</effect_group>	-->
+	</buff>
+	<buff name="buffPATrigger" hidden="true">		
+		<stack_type value="ignore"/>
+		<duration value="0"/>					
+		<effect_group>				
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPAset">
+				<requirement name="HasBuff" buff="buffPAhelmet"/>
+				<requirement name="HasBuff" buff="buffPAchest"/>
+				<requirement name="HasBuff" buff="buffPAarms"/>
+				<requirement name="HasBuff" buff="buffPAlegs"/>
+				<requirement name="HasBuff" buff="buffPAboots"/>
+			</triggered_effect>
+		</effect_group>				
+	</buff>
+	<buff name="buffPAset" hidden="true">		
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<effect_group>				
+			<passive_effect name="Mobility" operation="perc_add" value=".7"/>	
+		</effect_group>				
 	</buff>
 	<!--
 	<buff name="IsHuman_b">
