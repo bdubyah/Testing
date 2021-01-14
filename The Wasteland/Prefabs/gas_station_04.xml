@@ -21,7 +21,6 @@
   <property class="IndexedBlockOffsets">
     <property class="TraderOnOff">
       <property name="0" value="10, 1, 23" />
-      <property name="1" value="14, 11, 16" />
     </property>
     <property class="Rally">
       <property name="0" value="20, 10, 31" />

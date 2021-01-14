@@ -25,6 +25,18 @@
 		<prefab name="House_old_tudor_1" min_count="3" max_count="5" min_repeat_distance="500" />
 		<prefab name="School_k6_02" min_count="2" max_count="3" min_repeat_distance="500" />
 		<prefab name="Prison_02" min_count="2" max_count="4" min_repeat_distance="1200" />
+		<prefab name="army_barracks_1" min_count="2" max_count="4" min_repeat_distance="1200" />
+		<prefab name="garage_4" min_count="2" max_count="4" min_repeat_distance="1200" />
+		<prefab name="garage_5" min_count="2" max_count="4" min_repeat_distance="1200" />
+		<prefab name="gas_station_04" min_count="2" max_count="4" min_repeat_distance="800" />
+		<prefab name="junkyard_lg_1" min_count="2" max_count="4" min_repeat_distance="800" />
+		<prefab name="police_station01" min_count="2" max_count="4" min_repeat_distance="800" />
+		<prefab name="settlement_1" min_count="2" max_count="4" min_repeat_distance="600" />
+		<prefab name="store_bank_1" min_count="2" max_count="4" min_repeat_distance="600" />
+		<prefab name="store_gun_1" min_count="2" max_count="4" min_repeat_distance="600" />
+		<prefab name="store_pharmacy_2" min_count="2" max_count="4" min_repeat_distance="600" />
+		<prefab name="survivor_site_7" min_count="2" max_count="4" min_repeat_distance="600" />
+		<prefab name="survivor_site_8" min_count="2" max_count="4" min_repeat_distance="600" />
 	</append>
    
 </configs>  

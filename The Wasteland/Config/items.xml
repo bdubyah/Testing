@@ -1667,7 +1667,7 @@
 		<property name="DisplayType" value="melee"/>
 		<property name="DescriptionKey" value="meleeRebarClubDesc"/>
 		<property name="HoldType" value="33"/>
-		<property name="Meshfile" value="#@modfolder:Resources/rebarclub.unity3d?Rebar_Club1"/>
+		<property name="Meshfile" value="#@modfolder:Resources/Melee1.unity3d?Rebar_Club1"/>
 		<property name="Material" value="Mmetal"/>
 		<property name="Weight" value="50"/>
 		<property name="CustomIcon" value="rebarclubicon"/>
@@ -4198,7 +4198,7 @@
 		</effect_group>	
 		<effect_group name="Base Effects2" tiered="false">
 			<requirement name="HasBuff" target="other" buff="buffCryo"/>
-			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="30"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
 			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffCryoCrit"/>
 		</effect_group>
 	</item>
@@ -5879,9 +5879,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -5920,9 +5917,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -5961,9 +5955,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -6002,9 +5993,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -6041,9 +6029,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.1"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>	
 		
@@ -6080,9 +6065,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.1"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>	
 		
@@ -6119,9 +6101,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.1"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>	
 
@@ -6161,9 +6140,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -6203,9 +6179,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -6245,9 +6218,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -6287,9 +6257,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -6329,9 +6296,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -6371,9 +6335,6 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
 			</effect_group>
 		</item>
 		
@@ -6413,9 +6374,203 @@
 				<passive_effect name="MaxRange" operation="base_set" value="4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="4"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+			</effect_group>
+		</item>		
+		
+		<item name="meleeBloodBatNPC"> 
+			<property name="Tags" value="blunt,club,melee,grunting,weapon,meleeWeapon"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="Group" value="Ammo/Weapons,Basics"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Melee1.unity3d?BloodyBatNPC"/>
+			<property name="Candrop" value="false"/>
+			<property name="HoldType" value="2"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="RepairTools" value="resourceForgedIron"/>
+			<property name="SoundDestroy" value="metaldestroy1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="FuelValue" value="25"/>
+			<property name="CustomIcon" value="meleeClubWood"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="ShowQuality" value="false"/>
+			<property class="Action0">
+				<property name="Class" value="Melee" />
+				<property name="DamageEntity" value="15"/>
+				<property name="DamageBlock" value="50"/>
+				<property name="Range" value="2.2" />
+				<property name="Sphere" value="1.2" />
+				<property name="Sound_start" value="swoosh" />
+			</property>
+			<effect_group name="meleeBanditBat">
+				<passive_effect name="EntityDamage" operation="base_set" value="30"/> 
+				<passive_effect name="BlockDamage" operation="base_set" value="35"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="25"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="13.5" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="600,900" tier="1,6" />
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0" />
+				<passive_effect name="MaxRange" operation="base_set" value="4"/>
+				<passive_effect name="BlockRange" operation="base_set" value="4"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingTwo"/>
+			</effect_group>
+		</item>		
+		
+		<item name="meleeCuestickNPC"> 
+			<property name="Tags" value="blunt,club,melee,grunting,weapon,meleeWeapon"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="Group" value="Ammo/Weapons,Basics"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Melee1.unity3d?CuestickNPC"/>
+			<property name="Candrop" value="false"/>
+			<property name="HoldType" value="2"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="RepairTools" value="resourceForgedIron"/>
+			<property name="SoundDestroy" value="metaldestroy1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="FuelValue" value="25"/>
+			<property name="CustomIcon" value="meleeClubWood"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="ShowQuality" value="false"/>
+			<property class="Action0">
+				<property name="Class" value="Melee" />
+				<property name="DamageEntity" value="15"/>
+				<property name="DamageBlock" value="50"/>
+				<property name="Range" value="2.2" />
+				<property name="Sphere" value="1.2" />
+				<property name="Sound_start" value="swoosh" />
+			</property>
+			<effect_group name="meleeBanditBat">
+				<passive_effect name="EntityDamage" operation="base_set" value="25"/> 
+				<passive_effect name="BlockDamage" operation="base_set" value="25"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="25"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="13.5" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="600,900" tier="1,6" />
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0" />
+				<passive_effect name="MaxRange" operation="base_set" value="4"/>
+				<passive_effect name="BlockRange" operation="base_set" value="4"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+			</effect_group>
+		</item>		
+		
+		<item name="meleeMachete1NPC"> 
+			<property name="Tags" value="blunt,club,melee,grunting,weapon,meleeWeapon"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="Group" value="Ammo/Weapons,Basics"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Melee1.unity3d?Machete1NPC"/>
+			<property name="Candrop" value="false"/>
+			<property name="HoldType" value="2"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="RepairTools" value="resourceForgedIron"/>
+			<property name="SoundDestroy" value="metaldestroy1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="FuelValue" value="25"/>
+			<property name="CustomIcon" value="meleeClubWood"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="ShowQuality" value="false"/>
+			<property class="Action0">
+				<property name="Class" value="Melee" />
+				<property name="DamageEntity" value="15"/>
+				<property name="DamageBlock" value="50"/>
+				<property name="Range" value="2.2" />
+				<property name="Sphere" value="1.2" />
+				<property name="Sound_start" value="swoosh" />
+			</property>
+			<effect_group name="meleeBanditBat">
+				<passive_effect name="EntityDamage" operation="base_set" value="25"/> 
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="25"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="13.5" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="600,900" tier="1,6" />
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0" />
+				<passive_effect name="MaxRange" operation="base_set" value="4"/>
+				<passive_effect name="BlockRange" operation="base_set" value="4"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryBleedingTwo"/>
+			</effect_group>
+		</item>		
+		
+		<item name="meleePipeHammerNPC"> 
+			<property name="Tags" value="blunt,club,melee,grunting,weapon,meleeWeapon"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="Group" value="Ammo/Weapons,Basics"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Melee1.unity3d?PipeHammer2"/>
+			<property name="Candrop" value="false"/>
+			<property name="HoldType" value="2"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="RepairTools" value="resourceForgedIron"/>
+			<property name="SoundDestroy" value="metaldestroy1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="FuelValue" value="25"/>
+			<property name="CustomIcon" value="meleeClubWood"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="ShowQuality" value="false"/>
+			<property class="Action0">
+				<property name="Class" value="Melee" />
+				<property name="DamageEntity" value="15"/>
+				<property name="DamageBlock" value="50"/>
+				<property name="Range" value="2.2" />
+				<property name="Sphere" value="1.2" />
+				<property name="Sound_start" value="swoosh" />
+			</property>
+			<effect_group name="meleeBanditBat">
+				<passive_effect name="EntityDamage" operation="base_set" value="30"/> 
+				<passive_effect name="BlockDamage" operation="base_set" value="30"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="25"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="13.5" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="600,900" tier="1,6" />
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0" />
+				<passive_effect name="MaxRange" operation="base_set" value="4"/>
+				<passive_effect name="BlockRange" operation="base_set" value="4"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+			</effect_group>
+		</item>		
+		
+		<item name="meleeRebarClubNPC"> 
+			<property name="Tags" value="blunt,club,melee,grunting,weapon,meleeWeapon"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="Group" value="Ammo/Weapons,Basics"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Melee1.unity3d?Rebar_Club1NPC"/>
+			<property name="Candrop" value="false"/>
+			<property name="HoldType" value="2"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="RepairTools" value="resourceForgedIron"/>
+			<property name="SoundDestroy" value="metaldestroy1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="FuelValue" value="25"/>
+			<property name="CustomIcon" value="meleeClubWood"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="ShowQuality" value="false"/>
+			<property class="Action0">
+				<property name="Class" value="Melee" />
+				<property name="DamageEntity" value="15"/>
+				<property name="DamageBlock" value="50"/>
+				<property name="Range" value="2.2" />
+				<property name="Sphere" value="1.2" />
+				<property name="Sound_start" value="swoosh" />
+			</property>
+			<effect_group name="meleeBanditBat">
+				<passive_effect name="EntityDamage" operation="base_set" value="40"/> 
+				<passive_effect name="BlockDamage" operation="base_set" value="40"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="25"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="13.5" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="600,900" tier="1,6" />
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0" />
+				<passive_effect name="MaxRange" operation="base_set" value="4"/>
+				<passive_effect name="BlockRange" operation="base_set" value="4"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
 			</effect_group>
 		</item>		
 		
@@ -6424,8 +6579,8 @@
 			<property name="CreativeMode" value="None"/>
 			<property name="HoldType" value="12"/>
 			<property class="Action0">
-				<property name="DamageEntity" value="32"/>
-				<property name="DamageBlock" value="35"/>
+				<property name="DamageEntity" value="25"/>
+				<property name="DamageBlock" value="30"/>
 				<property name="Range" value="1.75"/>
 			</property>
 			<effect_group name="meleeHandZombieFeral" tiered="false">
@@ -6447,6 +6602,27 @@
 				<property name="DamageEntity" value="50"/>
 				<property name="DamageBlock" value="250"/>
 				<property name="Range" value="5"/>
+				<property name="Sphere" value="3"/>
+			</property>
+			<effect_group name="meleeHandZombieBehemoth_b" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+					buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+					weights=".11,.17,.17,.15,.29,.36,.11"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="15"><!--InfectionFeral-->
+					<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="2400"/><!--AbrasionFeral-->
+			</effect_group>
+		</item>
+		
+		<item name="meleeHandMutantBehemoth2_b">
+			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="HoldType" value="12"/>
+			<property class="Action0">
+				<property name="DamageEntity" value="40"/>
+				<property name="DamageBlock" value="100"/>
+				<property name="Range" value="4"/>
 				<property name="Sphere" value="3"/>
 			</property>
 			<effect_group name="meleeHandZombieBehemoth_b" tiered="false">
@@ -6695,11 +6871,10 @@
 			<property name="ShowQuality" value="true"/>
 			<property name="AutoReload" value="true"/>
 			<property name="Candrop" value="false"/>	
-			<property name="HoldingItemHidden" value="true"/>
 			<property class="Action0">
 				<property name="Class" value="Ranged" />
 				<property name="Auto_fire" value="true" /> 
-				<property name="Magazine_items" value="ammoNPC762mmBulletBall_b" />
+				<property name="Magazine_items" value="ammoNPC762mmBulletAP_b" />
 				<property name="Reload_time" value="0" /> 
 				<property name="Infinite_ammo" value="true" />
 				<property name="Single_magazine_usage" value="false"/>
@@ -6714,17 +6889,18 @@
 			</property>
 			<effect_group name="Base Effects">
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
-				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/> <!-- lowering this to a small number seemed to stop them from firing until in that range  -->
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/> 
 				<passive_effect name="MaxRange" operation="base_set" value="50"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="5"/> 
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
 				<passive_effect name="RoundsPerMinute" operation="base_set" value="5000"/>
-				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/> <!-- Bullets per shot  -->
-				<passive_effect name="RoundRayCount" operation="base_set" value="1"/>  <!-- Rays per Round  -->
+				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/> 
+				<passive_effect name="RoundRayCount" operation="base_set" value="1"/>  
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1000"/> 
-			</effect_group> 
-		</item>	
+			</effect_group> 			
+			<property name="HoldingItemHidden" value="true"/>
+		</item>
 		
 		<item name="gunBanditTacAR_b">
 			<property name="Extends" value="gunBanditSMG5_b"/>
@@ -10697,6 +10873,86 @@
 			<effect_group name="Testing">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$PAset" operation="add" value="1"/>
 				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" cvar="$PAset" operation="add" value="-1"/>
+			</effect_group>
+		</item>
+		
+		<item name="gunTest">
+			<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic,attachmentsIncluded,no2x"/>
+			<property name="DisplayType" value="rangedGun"/>
+			<property name="HoldType" value="44"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Magnums/magnumPrefab.prefab"/>
+			<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
+			<property name="RepairTools" value="resourceRepairKit"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="weapon_jam"/>
+			<property name="Attachments" value="meleeToolFlashlight02"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairUpAfterShot" value="true"/> 
+			<property name="Sound_Sight_In" value="pistol_sight_in"/>
+			<property name="Sound_Sight_Out" value="pistol_sight_out"/>
+			<property name="LightSource" value="lightSource"/> 
+			<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+			<property name="AttachmentFlashlight" value="flashlight02"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="RepairExpMultiplier" value="10.8"/>
+			<property name="LightValue" value=".45"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="UnlockedBy" value="gun10mmRevSchematic"/>
+			<property name="ShowQuality" value="true"/>
+
+			<property class="Action0">
+				<property name="Class" value="Ranged"/>
+				<property name="Magazine_items" value="ammo10mmBullet,ammo10mmBulletHP,ammo10mmBulletAP"/>
+				<property name="Sound_start" value="10mmRev_fire"/>
+				<property name="Sound_loop" value="10mmRev_fire"/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_empty" value="dryfire"/>
+				<property name="Sound_reload" value="44magnum_reload"/>
+				<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+				<property name="Particles_muzzle_fire_fpv" value="gunfire_pistol_fpv"/>
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Zoom"/>
+				<property name="Zoom_max_out" value="55"/>
+				<property name="Zoom_max_in" value="55"/>
+				<property name="ScopeCameraOffset" value="0,0.001,0"/>
+			</property>
+
+			<effect_group name="gunTest">
+				<passive_effect name="MaxRange" operation="base_set" value="70" tags="perkGunslinger"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="35" tags="perkGunslinger"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/> 
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="120" tags="perkGunslinger"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkGunslinger"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="6" tags="perkGunslinger"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkGunslinger"/> 
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkGunslinger"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkGunslinger"/> 
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkGunslinger"/> 
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkGunslinger"/> 
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/> 
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkGunslinger"/> 			
+				<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkGunslinger"/> 
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5" tags="perkGunslinger"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5" tags="perkGunslinger"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4" tags="perkGunslinger"/>
+				<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkGunslinger"/>
+				<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkGunslinger"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2" tags="perkGunslinger"/>
+				<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".7" tags="perkGunslinger"/>
+				<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".8" tags="perkGunslinger"/>
+				<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.25" tags="perkGunslinger"/>
+				<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".25" tags="perkGunslinger"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="perkGunslinger"/>
+				<passive_effect name="WeaponHandling" operation="base_set" value=".95" tags="perkGunslinger"/> 
+				<passive_effect name="DegradationMax" operation="base_set" value="250,450" tier="1,6" tags="perkGunslinger"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger"/>
+				<triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="Reload" value="true"/>
+				<triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="Reload" value="false"/>
 			</effect_group>
 		</item>
 		

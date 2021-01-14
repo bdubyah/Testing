@@ -71,8 +71,19 @@
 		<group name="SoldierMix" emptyChance="0" decoyChance="0" decoy1hpChance="0">
 			<spawner name="SleeperSoldierMix_b" count="5"/>
 		</group>
-
-
 	
 	</append>
+	
+	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='29']"/>
+	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='45']"/>
+	<remove xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='49']"/>
+	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[28]">
+		<gamestage stage="29"><spawn group="MutantsHorde_b" num="05" maxAlive="30" duration="09" /></gamestage>
+	</insertAfter>
+	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[44]">
+		<gamestage stage="45"><spawn group="MutantBHorde_b" num="01" maxAlive="30" duration="09" /></gamestage>
+	</insertAfter>
+	<insertAfter xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[48]">
+		<gamestage stage="49"><spawn group="MutantsHorde_b" num="08" maxAlive="30" duration="09" /></gamestage>
+	</insertAfter>
 </configs>

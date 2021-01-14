@@ -82,6 +82,20 @@
 			<entity name="humanSoldier4Knifesleeper"  />
 			<entity name="humanSoldier5Knifesleeper"  />
 		</entitygroup>		
+		<entitygroup name="MutantsHorde_b">
+			<entity name="MutantSM1horde1"  />
+			<entity name="MutantSM1horde2"  />
+			<entity name="MutantSM1horde3"  />
+			<entity name="MutantSM1horde4"  />
+			<entity name="MutantSM1horde5"  />
+			<entity name="MutantSM1horde6"  />
+			<entity name="MutantSM1horde7"  />
+			<entity name="MutantSM1horde8"  />
+		</entitygroup>		
+		<entitygroup name="MutantBHorde_b">
+			<entity name="mutantBehemoth" />
+			<entity name="mutantBehemoth2" />
+		</entitygroup>		
 	</append> 
 	
 	<append xpath="/entitygroups/entitygroup[ starts-with(@name, 'ZombiesAll')]">
@@ -118,46 +132,87 @@
 		<entity name="humanSoldier5Rifle"  prob="0.01" />
 		<entity name="zombieGhoul1"  prob="0.01" />
 		<entity name="mutantBehemoth"  prob="0.01" />
+		<entity name="mutantBehemoth2"  prob="0.01" />
 		<entity name="mutantSM1melee1"  prob="0.01" />
 		<entity name="mutantSM1melee2"  prob="0.01" />
 		<entity name="mutantSM1melee3"  prob="0.01" />
-		<entity name="mutantSM1ranged1"  prob="0.01" />
-		<entity name="mutantSM1ranged2"  prob="0.01" />
-		<entity name="mutantSM1ranged3"  prob="0.01" />
+		<entity name="mutantSM1melee4"  prob="0.01" />
+		<entity name="mutantSM1melee5"  prob="0.01" />
+		<entity name="mutantSM1melee6"  prob="0.01" />
+		<entity name="mutantSM1melee7"  prob="0.01" />
+		<entity name="mutantSM1melee8"  prob="0.01" />
 	</append> 
 	
 	<insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesNight']/entity[@name='zombieBoe']" >
-		<entity name="zombieGhoul1" prob=".1" />
 		<entity name="mutantBehemoth" prob=".01" />
-		<entity name="mutantSM1melee1"  prob="0.1" />
-		<entity name="mutantSM1melee2"  prob="0.1" />
-		<entity name="mutantSM1melee3"  prob="0.1" />
-		<entity name="mutantSM1ranged1"  prob="0.1" />
-		<entity name="mutantSM1ranged2"  prob="0.1" />
-		<entity name="mutantSM1ranged3"  prob="0.1" />
+		<entity name="mutantBehemoth2"  prob=".01" />
+		<entity name="MutantSM1horde1" prob="0.1" />
+		<entity name="MutantSM1horde2" prob="0.1" />
+		<entity name="MutantSM1horde3" prob="0.1" />
+		<entity name="MutantSM1horde4" prob="0.1" />
+		<entity name="MutantSM1horde5" prob="0.1" />
+		<entity name="MutantSM1horde6" prob="0.1" />
+		<entity name="MutantSM1horde7" prob="0.1" />
+		<entity name="MutantSM1horde8" prob="0.1" />
+		<entity name="zombieGhoul1" prob="0.1" />
 	</insertAfter>
 	
 	<insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/entity[@name='zombieBoe']" >
 		<entity name="zombieGhoul1" prob=".3" />
 		<entity name="mutantBehemoth" prob=".1" />
+		<entity name="mutantBehemoth2" prob=".1" />
 		<entity name="mutantSM1melee1"  prob="0.15" />
 		<entity name="mutantSM1melee2"  prob="0.15" />
 		<entity name="mutantSM1melee3"  prob="0.15" />
-		<entity name="mutantSM1ranged1"  prob="0.15" />
-		<entity name="mutantSM1ranged2"  prob="0.15" />
-		<entity name="mutantSM1ranged3"  prob="0.15" />
+		<entity name="mutantSM1melee4"  prob="0.15" />
+		<entity name="mutantSM1melee5"  prob="0.15" />
+		<entity name="mutantSM1melee6"  prob="0.15" />
+		<entity name="mutantSM1melee7"  prob="0.15" />
+		<entity name="mutantSM1melee8"  prob="0.15" />
 	</insertAfter>
 	
 	<insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/entity[@name='zombieBoeFeral']" >
 		<entity name="zombieGhoul1" prob=".5" />
 		<entity name="mutantBehemoth" prob=".2" />
-		<entity name="mutantSM1melee1"  prob="0.1" />
-		<entity name="mutantSM1melee2"  prob="0.1" />
-		<entity name="mutantSM1melee3"  prob="0.1" />
-		<entity name="mutantSM1ranged1"  prob="0.1" />
-		<entity name="mutantSM1ranged2"  prob="0.1" />
-		<entity name="mutantSM1ranged3"  prob="0.1" />
+		<entity name="mutantBehemoth2" prob=".2" />
+		<entity name="mutantSM1melee1"  prob="0.25" />
+		<entity name="mutantSM1melee2"  prob="0.25" />
+		<entity name="mutantSM1melee3"  prob="0.25" />
+		<entity name="mutantSM1melee4"  prob="0.25" />
+		<entity name="mutantSM1melee5"  prob="0.25" />
+		<entity name="mutantSM1melee6"  prob="0.25" />
+		<entity name="mutantSM1melee7"  prob="0.25" />
+		<entity name="mutantSM1melee8"  prob="0.25" />
 	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieDemolition']">
+		<entity name="mutantBehemoth" prob="0.05" />
+		<entity name="mutantBehemoth2" prob="0.05" />
+	</insertAfter>
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieMoeRadiated']">
+		<entity name="MutantSM1horde1" prob="0.05" />
+		<entity name="MutantSM1horde2" prob="0.05" />
+		<entity name="MutantSM1horde3" prob="0.05" />
+		<entity name="MutantSM1horde4" prob="0.05" />
+		<entity name="MutantSM1horde5" prob="0.05" />
+		<entity name="MutantSM1horde6" prob="0.05" />
+		<entity name="MutantSM1horde7" prob="0.05" />
+		<entity name="MutantSM1horde8" prob="0.05" />
+		<entity name="zombieGhoul1" prob="0.05" />
+	</insertAfter> 
+	
+	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieBoeRadiated']">
+		<entity name="MutantSM1horde1" prob="0.05" />
+		<entity name="MutantSM1horde2" prob="0.05" />
+		<entity name="MutantSM1horde3" prob="0.05" />
+		<entity name="MutantSM1horde4" prob="0.05" />
+		<entity name="MutantSM1horde5" prob="0.05" />
+		<entity name="MutantSM1horde6" prob="0.05" />
+		<entity name="MutantSM1horde7" prob="0.05" />
+		<entity name="MutantSM1horde8" prob="0.05" />
+		<entity name="zombieGhoul1" prob="0.05" />
+	</insertAfter> 
 
 
 </configs>
