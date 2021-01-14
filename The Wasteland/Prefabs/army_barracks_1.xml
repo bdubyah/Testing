@@ -18,7 +18,7 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="government" />
   <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
-  <property name="DifficultyTier" value="3" />
+  <property name="DifficultyTier" value="4" />
   <property name="QuestTags" value="clear,fetch,hidden_cache" />
   <property name="ExcludePOICulling" value="False" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,2,0,0" />

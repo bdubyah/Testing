@@ -14,7 +14,7 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="Wilderness" />
   <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False" />
-  <property name="DifficultyTier" value="1" />
+  <property name="DifficultyTier" value="3" />
   <property name="YOffset" value="-1" />
   <property name="QuestTags" value="clear,fetch,hidden_cache" />
   <property name="ExcludePOICulling" value="False" />

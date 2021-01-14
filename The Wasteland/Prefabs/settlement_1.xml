@@ -16,18 +16,19 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="industrial" />
   <property name="SleeperIsBossVolume" value="False,False,False,False,False" />
-  <property name="DifficultyTier" value="1" />
+  <property name="DifficultyTier" value="3" />
+  <property name="QuestTags" value="clear,fetch,hidden_cache" />
   <property name="ExcludePOICulling" value="False" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0" />
   <property name="SleeperVolumeFlags" value="0,2,2,0,0" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False" />
   <property class="Stats">
-    <property name="TotalVertices" value="178504" />
-    <property name="TotalTriangles" value="122335" />
+    <property name="TotalVertices" value="179402" />
+    <property name="TotalTriangles" value="123215" />
     <property class="BlockEntities">
-      <property name="Vertices" value="86501" />
-      <property name="Triangles" value="58050" />
+      <property name="Vertices" value="87399" />
+      <property name="Triangles" value="58930" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="70208" />
@@ -73,6 +74,9 @@
   <property class="IndexedBlockOffsets">
     <property class="TraderOnOff">
       <property name="0" value="28, 6, 21" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="15, 1, 0" />
     </property>
   </property>
 </prefab>
