@@ -2716,6 +2716,7 @@
 		<property name="EconomicValue" value="20"/>
 		<property name="FilterTags" value="fdecor,fwindows"/>
 		<property name="SortOrder1" value="7080"/>
+		<property name="BuffsWhenWalkedOn" value="sleepingBagEffect"/>
 	</block>
 	
 	<block name="Server1">		

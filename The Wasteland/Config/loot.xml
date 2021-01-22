@@ -145,6 +145,119 @@
 			<item name="ammoAB" count="75,150" />
 		</lootgroup>
 		
+		<lootgroup name="PA1" count="all">
+			<item name="powerArmorArms_Model_A1" />
+			<item name="powerArmorBoots_Model_A1"/>
+			<item name="powerArmorChest_Model_A1"/>
+			<item name="powerArmorHelmet_Model_A1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_A1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA2" count="all">
+			<item name="powerArmorArms_Model_B1" />
+			<item name="powerArmorBoots_Model_B1"/>
+			<item name="powerArmorChest_Model_B1"/>
+			<item name="powerArmorHelmet_Model_B1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_B1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA3" count="all">
+			<item name="powerArmorArms_Model_C1" />
+			<item name="powerArmorBoots_Model_C1"/>
+			<item name="powerArmorChest_Model_C1"/>
+			<item name="powerArmorHelmet_Model_C1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_C1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA4" count="all">
+			<item name="powerArmorArms_Model_D1" />
+			<item name="powerArmorBoots_Model_D1"/>
+			<item name="powerArmorChest_Model_D1"/>
+			<item name="powerArmorHelmet_Model_D1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_D1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA5" count="all">
+			<item name="powerArmorArms_Model_E1" />
+			<item name="powerArmorBoots_Model_E1"/>
+			<item name="powerArmorChest_Model_E1"/>
+			<item name="powerArmorHelmet_Model_E1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_E1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA6" count="all">
+			<item name="powerArmorArms_Model_F1" />
+			<item name="powerArmorBoots_Model_F1"/>
+			<item name="powerArmorChest_Model_F1"/>
+			<item name="powerArmorHelmet_Model_F1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_F1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA7" count="all">
+			<item name="powerArmorArms_Model_G1" />
+			<item name="powerArmorBoots_Model_G1"/>
+			<item name="powerArmorChest_Model_G1"/>
+			<item name="powerArmorHelmet_Model_G1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_G1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA8" count="all">
+			<item name="powerArmorArms_Model_H1" />
+			<item name="powerArmorBoots_Model_H1"/>
+			<item name="powerArmorChest_Model_H1"/>
+			<item name="powerArmorHelmet_Model_H1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_H1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA9" count="all">
+			<item name="powerArmorArms_Model_I1" />
+			<item name="powerArmorBoots_Model_I1"/>
+			<item name="powerArmorChest_Model_I1"/>
+			<item name="powerArmorHelmet_Model_I1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_I1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA10" count="all">
+			<item name="powerArmorArms_Model_J1" />
+			<item name="powerArmorBoots_Model_J1"/>
+			<item name="powerArmorChest_Model_J1"/>
+			<item name="powerArmorHelmet_Model_J1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_J1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PA11" count="all">
+			<item name="powerArmorArms_Model_K1" />
+			<item name="powerArmorBoots_Model_K1"/>
+			<item name="powerArmorChest_Model_K1"/>
+			<item name="powerArmorHelmet_Model_K1" mods="modPowerArmorHelmetRadar" mod_chance="1"/>
+			<item name="powerArmorLegs_Model_K1"/>
+			<item name="resourcePowerArmorRepairKit"/>
+		</lootgroup>
+		
+		<lootgroup name="PowerArmorMods">
+			<item name="modPowerArmorHelmetRadar" />
+			<item name="modPowerArmorHelmetRadarMK2" />
+			<item name="modPowerArmorHelmetScuba" />
+			<item name="modPowerArmorArmsBlockBuster" />
+			<item name="modPowerArmorArmsMelee" />	
+			<item name="modPowerArmorChestPlating" />
+			<item name="modPowerArmorChestEmergencyProto" />
+			<item name="modPowerArmorLegsShocks" />
+			<item name="modPowerArmorLegsJumpBoost" />
+			<item name="modPowerArmorBootsGyros" />	
+			<item name="modPowerArmorBootsDampener" />
+		</lootgroup>
+		
 		<!-- Nuka Stuff -->
 		
 		<lootgroup name="NukaGroup">
@@ -291,20 +404,24 @@
 		</lootcontainer>
 		
 		<lootcontainer id="943" count="1" size="6,2" destroy_on_close="true" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="2" loot_quality_template="qualPlus1Template">
-			<item name="PABundle1" />
-			<item name="PABundle2" />
-			<item name="PABundle3" />
-			<item name="PABundle4" />
-			<item name="PABundle5" />
-			<item name="PABundle6" />
-			<item name="PABundle7" />
-			<item name="PABundle8" />
-			<item name="PABundle9" />
-			<item name="PABundle10" />
-			<item name="PABundle11" />		
+			<item group="PA1" />
+			<item group="PA2" />
+			<item group="PA3" />
+			<item group="PA4" />
+			<item group="PA5" />
+			<item group="PA6" />
+			<item group="PA7" />
+			<item group="PA8" />
+			<item group="PA9" />
+			<item group="PA10" />
+			<item group="PA11" />		
 		</lootcontainer>
 					
 	</insertAfter>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupModAllT3']">		
+		<item group="PowerArmorMods" prob=".7"/>
+	</append>
 
 	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT2']">
 		<item group="RegularGunsT1"/>

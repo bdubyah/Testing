@@ -23,11 +23,12 @@ army_barracks_1,none,2,0,51,40,97,alone
 gas_station_04,none,2,-10,33,24,44,smalltown,downtown,alone,industrial
 store_bank_1,none,2,0,41,17,47,smalltown,downtown,alone,industrial
 store_gun_1,none,2,0,55,14,86,smalltown,downtown,alone,industrial
-store_pharmacy_2,2,0,45,20,72,smalltown,downtown,alone,industrial
-police_station01,2,0,42,17,38,smalltown,downtown,alone,industrial
-settlement_1,2,0,38,19,38,smalltown,downtown,alone
-survivor_site_7,2,0,25,16,25,alone
-survivor_site_8,2,0,25,23,25,alone
-junkyard_lg_1,2,0,74,19,89,smalltown,downtown,alone,industrial
+store_pharmacy_2,none,2,0,45,20,72,smalltown,downtown,alone,industrial
+police_station01,none,2,0,42,17,38,smalltown,downtown,alone,industrial
+settlement_1,none,2,0,38,19,38,smalltown,downtown,alone
+survivor_site_7,none,2,0,25,16,25,alone
+survivor_site_8,none,2,0,25,23,25,alone
+junkyard_lg_1,none,2,0,74,19,89,smalltown,downtown,alone,industrial
+remnant_wasteland_01,none,2,-1,69,36,59,alone
 
 

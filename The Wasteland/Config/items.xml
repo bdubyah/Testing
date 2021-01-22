@@ -7993,13 +7993,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8033,13 +8033,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8073,13 +8073,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8113,13 +8113,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8153,13 +8153,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8193,13 +8193,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8233,13 +8233,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8273,13 +8273,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8313,13 +8313,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8353,13 +8353,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8393,13 +8393,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8430,7 +8430,7 @@
 		<item name="powerArmorChest_Base1">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="powerArmorMaster1"/>
-			<property name="Tags" value="upperbody,chest,armor,armorChest,canHaveCosmetic"/>
+			<property name="Tags" value="upperbody,chest,armor,armorChest,powerArmorChest,canHaveCosmetic"/>
 			<property name="EquipSlot" value="Chest"/>
 			<property class="UMA">
 				<property name="Mesh" value="clothes_army_shirt"/>
@@ -8446,13 +8446,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8495,13 +8495,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8544,13 +8544,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8593,13 +8593,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8642,13 +8642,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8691,13 +8691,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8740,13 +8740,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8789,13 +8789,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8838,13 +8838,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8887,13 +8887,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8936,13 +8936,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -8978,10 +8978,11 @@
 				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffPAset"/>
 			</effect_group>
 		</item>
+		
 		<item name="powerArmorArms_Base1">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="powerArmorMaster1"/>
-			<property name="Tags" value="upperbody,hands,armor,armorHands,canHaveCosmetic"/>
+			<property name="Tags" value="upperbody,hands,armor,armorHands,powerArmorArms,canHaveCosmetic"/>
 			<property name="EquipSlot" value="Hands"/>
 			<property class="UMA">
 				<property name="Mesh" value="armor_kevlar_gloves"/>
@@ -8997,13 +8998,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9046,13 +9047,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9095,13 +9096,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9144,13 +9145,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9193,13 +9194,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9242,13 +9243,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9291,13 +9292,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9340,13 +9341,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9389,13 +9390,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9438,13 +9439,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9487,13 +9488,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9533,7 +9534,7 @@
 		<item name="powerArmorLegs_Base1">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="powerArmorMaster1"/>
-			<property name="Tags" value="lowerbody,legs,armor,armorLegs,canHaveCosmetic"/>
+			<property name="Tags" value="lowerbody,legs,armor,armorLegs,powerarmorLegs,canHaveCosmetic"/>
 			<property name="EquipSlot" value="Legs"/>
 			<property class="UMA">
 				<property name="Mesh" value="clothes_army_pants"/>
@@ -9549,13 +9550,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9592,13 +9593,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9635,13 +9636,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9678,13 +9679,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9721,13 +9722,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9764,13 +9765,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9807,13 +9808,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9850,13 +9851,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9893,13 +9894,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9936,13 +9937,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -9979,13 +9980,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10019,7 +10020,7 @@
 		<item name="powerArmorBoots_Base1">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="powerArmorMaster1"/>
-			<property name="Tags" value="lowerbody,feet,armor,armorFeet,canHaveCosmetic"/>
+			<property name="Tags" value="lowerbody,feet,armor,armorFeet,powerArmorBoots,canHaveCosmetic"/>
 			<property name="EquipSlot" value="Feet"/>
 			<property class="UMA">
 				<property name="Mesh" value=""/>
@@ -10035,13 +10036,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10084,13 +10085,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10133,13 +10134,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10182,13 +10183,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10231,13 +10232,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10280,13 +10281,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10329,13 +10330,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10378,13 +10379,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10427,13 +10428,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10476,13 +10477,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10525,13 +10526,13 @@
 			<effect_group>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,4,4" tier="1,2,3,4,5,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="50" tags="EconomicValue"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="15,20"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,8" tier="1,6"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="15,20" tags="heat,electrical"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="0,5" tier="1,6"/>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5"/>
 				<passive_effect name="HyperthermalResist" operation="base_add" value="5"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="0.07,0.08" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".2" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="Mobility" operation="perc_subtract" value=".10"/>
@@ -10568,7 +10569,7 @@
 			</effect_group>
 		</item>
 		
-	<!-- Armor Bundles -->
+	<!-- Armor Bundles 
 	
 		<item name="PABundle1">
 			<property name="CreativeMode" value="Dev"/>
@@ -10707,7 +10708,7 @@
 				<property name="Create_item" value="powerArmorArms_Model_K1,powerArmorBoots_Model_K1,powerArmorChest_Model_K1,powerArmorHelmet_Model_K1,powerArmorLegs_Model_K1,resourcePowerArmorRepairKit"/>
 				<property name="Create_item_count" value="1,1,1,1,1,1"/>
 			</property>
-		</item>
+		</item> -->
 		
 	<!-- Asset loading -->
 	
@@ -10871,8 +10872,8 @@
 				<passive_effect name="StaminaLoss" operation="base_set" value="35" tags="secondary"/>
 			</effect_group>
 			<effect_group name="Testing">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$PAset" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" cvar="$PAset" operation="add" value="-1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$PAperception" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" cvar="$PAperception" operation="add" value="-1"/>
 			</effect_group>
 		</item>
 		

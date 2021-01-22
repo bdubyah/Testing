@@ -240,10 +240,10 @@
 			<effect_group>	
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffCryo"/>
 				<passive_effect name="HealthLoss" operation="perc_add" value=".2"/>
-				<passive_effect name="RunSpeed" operation="perc_set" value="0"/>
-				<passive_effect name="WalkSpeed" operation="perc_set" value="0"/>
-				<passive_effect name="CrouchSpeed" operation="perc_set" value="0"/>
-				<passive_effect name="JumpStrength" operation="perc_set" value="0"/>				
+				<passive_effect name="RunSpeed" operation="base_set" value="0"/>
+				<passive_effect name="WalkSpeed" operation="base_set" value="0"/>
+				<passive_effect name="CrouchSpeed" operation="base_set" value="0"/>
+				<passive_effect name="JumpStrength" operation="base_set" value="0"/>				
 				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="Icicle1" local_offset="0,0,0" parent_transform="Spine2"/>
 				<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="Icicle1" local_offset="0,0,0" parent_transform="Spine2"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/Cryo1.unity3d?Icicle1" local_offset="0,0,0" parent_transform="Spine2"/>
@@ -278,12 +278,7 @@
 			<duration value="0"/>	
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPATrigger"/>
-			</effect_group><!--
-			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPAhelmet">
-					<requirement name="HasBuff" buff="buffPAset"/>
-				</triggered_effect>
-			</effect_group>	-->	
+			</effect_group>
 		</buff>
 		<buff name="buffPAchest" hidden="true">
 			<damage_type value="stun"/>
@@ -354,9 +349,45 @@
 			<stack_type value="ignore"/>
 			<duration value="0"/>
 			<effect_group>				
-				<passive_effect name="Mobility" operation="perc_add" value=".85"/>	
+				<passive_effect name="Mobility" operation="perc_add" value=".9"/>	
 				<passive_effect name="RunSpeed" operation="perc_add" value=".1"/>	
+				<passive_effect name="StaminaChangeOT" operation="perc_add" value=".1"/>
 			</effect_group>				
+		</buff>
+		<buff name="buffPAhelmetRadar" hidden="true">
+			<damage_type value="stun"/>
+			<stack_type value="ignore"/>
+			<duration value="0"/>	
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$PAperception" operation="set" value="1"/>
+			</effect_group>				
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$PAperception" operation="set" value="0"/>
+			</effect_group>	
+		</buff>
+		<buff name="buffPAhelmetRadarMK2" hidden="true">
+			<damage_type value="stun"/>
+			<stack_type value="ignore"/>
+			<duration value="0"/>	
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$PAperceptionMK2" operation="set" value="1"/>
+			</effect_group>				
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$PAperceptionMK2" operation="set" value="0"/>
+			</effect_group>	
+		</buff>
+		<buff name="buffPAhelmetScuba" hidden="true">			
+			<stack_type value="ignore"/>
+			<duration value="0"/>	
+			<update_rate value="1"/>	
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DrowningTimer" operation="add" value="1">
+					<requirement name="CVarCompare" cvar="_underwater" operation="Equals" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".DrowningTimerDisplay" operation="add" value="1">
+					<requirement name="CVarCompare" cvar="_underwater" operation="Equals" value="1"/>
+				</triggered_effect>
+			</effect_group>	
 		</buff>
 	<!--
 		<buff name="IsHuman_b">
@@ -452,7 +483,7 @@
 		
 		<buff name="SMBW1" hidden="true">
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/Ghouls.unity3d?Hydrant"/>" parent_transform="RightWeapon" local_offset="0,0,0" local_rotation="0,0,0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/Ghouls.unity3d?Hydrant" parent_transform="RightWeapon" local_offset="0,0,0" local_rotation="180,0,0"/>
 			</effect_group>
 		</buff>
 		

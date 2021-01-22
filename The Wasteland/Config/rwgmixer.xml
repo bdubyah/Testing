@@ -37,6 +37,7 @@
 		<prefab name="store_pharmacy_2" min_count="2" max_count="4" min_repeat_distance="600" />
 		<prefab name="survivor_site_7" min_count="2" max_count="4" min_repeat_distance="600" />
 		<prefab name="survivor_site_8" min_count="2" max_count="4" min_repeat_distance="600" />
+		<prefab name="remnant_wasteland_01" min_count="2" max_count="4" min_repeat_distance="600" />
 	</append>
    
 </configs>  

@@ -593,6 +593,29 @@ PABundle10,bundle,Items,New,Power Armor Set
 PABundle10Desc,bundle,Items,New,This bundle contains a full set of Power Armor.
 PABundle11,bundle,Items,New,Power Armor Set
 PABundle11Desc,bundle,Items,New,This bundle contains a full set of Power Armor.
+PowerArmorStand,blocks,Container,New,Power Armor Stand
+modPowerArmorHelmetRadar,item_modifiers,mod,New,Power Armor Radar,,,,,
+modPowerArmorHelmetRadarDesc,item_modifiers,mod,New,Can be installed in a Power Armor Helmet. Will show nearby enemies on the compass.,,,,,
+modPowerArmorHelmetRadarMK2,item_modifiers,mod,New,Power Armor Radar MkII,,,,,
+modPowerArmorHelmetRadarMK2Desc,item_modifiers,mod,New,Can be installed in a Power Armor Helmet. Will show enemies on the compass.,,,,,
+modPowerArmorHelmetScuba,item_modifiers,mod,New,Power Armor Oxygen Generator,,,,,
+modPowerArmorHelmetScubaDesc,item_modifiers,mod,New,Can be installed in a Power Armor Helmet. Allows you to remain underwater indefinitely.,,,,,
+modPowerArmorArmsBlockBuster,item_modifiers,mod,New,Power Armor Block Buster,,,,,
+modPowerArmorArmsBlockBusterDesc,item_modifiers,mod,New,Can be installed in Power Armor Arms. Increases melee block damage.,,,,,
+modPowerArmorArmsMelee,item_modifiers,mod,New,Power Armor Knuckles,,,,,
+modPowerArmorArmsMeleeDesc,item_modifiers,mod,New,Can be installed in a Power Armor Arms. Can cause enemies to bleed.,,,,,
+modPowerArmorChestPlating,item_modifiers,mod,New,Power Armor Reinforced Plating,,,,,
+modPowerArmorChestPlatingDesc,item_modifiers,mod,New,Can be installed in Power Armor Chest. Reduces damage taken.,,,,,
+modPowerArmorChestEmergencyProto,item_modifiers,mod,New,Power Armor Emergency Protocol,,,,,
+modPowerArmorChestEmergencyProtoDesc,item_modifiers,mod,New,Can be installed in a Power Armor Chest. Slowly regenerate health when below 50%.,,,,,
+modPowerArmorLegsShocks,item_modifiers,mod,New,Power Armor Sturdy Shocks,,,,,
+modPowerArmorLegsShocksDesc,item_modifiers,mod,New,Can be installed in Power Armor Legs. Removes all encumbrance slots.,,,,,
+modPowerArmorLegsJumpBoost,item_modifiers,mod,New,Power Armor Jump Boost,,,,,
+modPowerArmorLegsJumpBoostDesc,item_modifiers,mod,New,Can be installed in Power Armor Legs. Increases jump height by 50%.,,,,,
+modPowerArmorBootsGyros,item_modifiers,mod,New,Power Armor Enhanced Gyros,,,,,
+modPowerArmorBootsGyrosDesc,item_modifiers,mod,New,Can be installed in Power Armor Boots. Allows you to run faster while using less stamina.,,,,,
+modPowerArmorBootsDampener,item_modifiers,mod,New,Power Armor Fall Dampener,,,,,
+modPowerArmorBootsDampenerDesc,item_modifiers,mod,New,Can be installed in Power Armor Boots. Reduces fall damage by 75%.,,,,,
 
 perkWildWasteland,perk,book,New,Wild Wasteland
 perkWildWastelandDesc,perk,book,New,A collection of random knowledge to give you various benefits out in the Wasteland.
