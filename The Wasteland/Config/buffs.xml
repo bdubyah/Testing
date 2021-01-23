@@ -360,6 +360,7 @@
 			<duration value="0"/>	
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$PAperception" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$PAperception" operation="set" value="1"/>
 			</effect_group>				
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$PAperception" operation="set" value="0"/>
@@ -371,6 +372,7 @@
 			<duration value="0"/>	
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$PAperceptionMK2" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$PAperceptionMK2" operation="set" value="1"/>
 			</effect_group>				
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$PAperceptionMK2" operation="set" value="0"/>

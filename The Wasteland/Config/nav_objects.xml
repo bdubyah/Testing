@@ -9,7 +9,7 @@
 			<compass_settings>
 				<property name="sprite_name" value="ui_game_symbol_enemy_dot"/>
 				<property name="min_distance" value="0"/>
-				<property name="max_distance" value="10"/>
+				<property name="max_distance" value="20"/>
 				<property name="color" value="255,0,0,255"/>
 				<property name="has_pulse" value="true"/>
 				<property name="icon_clamped" value="false" />
@@ -24,7 +24,7 @@
 			<compass_settings>
 				<property name="sprite_name" value="ui_game_symbol_enemy_dot"/>
 				<property name="min_distance" value="0"/>
-				<property name="max_distance" value="20"/>
+				<property name="max_distance" value="50"/>
 				<property name="color" value="255,0,0,255"/>
 				<property name="has_pulse" value="true"/>
 				<property name="icon_clamped" value="false" />
