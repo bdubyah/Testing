@@ -17,11 +17,11 @@
   <property name="SleeperIsBossVolume" value="False" />
   <property name="SleeperVolumeFlags" value="0,0" />
   <property name="EditorGroups" value="remnant, commercial, industrial" />
-  <property name="AllowedTownships" value="rural,wilderness" />
+  <property name="AllowedTownships" value="rural,wilderness,town,industrial,city" />
   <property name="YOffset" value="-1" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="SleeperIsQuestExclude" value="False,False" />
-  <property name="Zoning" value="none" />
+  <property name="Zoning" value="downtown, residentialnew" />
   <property class="Stats">
     <property name="TotalVertices" value="412682" />
     <property name="TotalTriangles" value="370469" />

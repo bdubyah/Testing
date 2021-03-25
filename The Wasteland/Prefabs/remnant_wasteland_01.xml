@@ -6,8 +6,8 @@
   <property name="QuestTags" value="clear,fetch,hidden_cache" />
   <property name="DifficultyTier" value="4" />
   <property name="DistantPOIYOffset" value="0" />
-  <property name="Zoning" value="BiomeOnly, any, Industrial, none, NoZone" />
-  <property name="AllowedTownships" value="rural,wilderness,town,industrial" />
+  <property name="Zoning" value="downtown, residentialnew" />
+  <property name="AllowedTownships" value="rural,wilderness,town,industrial,city" />
   <property name="AllowedBiomes" value="wasteland,burntforest,snow" />
   <property name="AllowTopSoilDecorations" value="True" />
   <property name="ShowQuestClearCount" value="1" />

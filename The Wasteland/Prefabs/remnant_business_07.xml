@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <prefab>
   <property name="CopyAirBlocks" value="True" />
-  <property name="AllowedTownships" value="city,town,rural,wilderness" />
-  <property name="Zoning" value="Commercial" />
+  <property name="AllowedTownships" value="rural,wilderness,town,industrial,city" />
+  <property name="Zoning" value="downtown, residentialnew" />
   <property name="ExcludeDistantPOIMesh" value="False" />
   <property name="ExcludePOICulling" value="False" />
   <property name="DistantPOIYOffset" value="0" />

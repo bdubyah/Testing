@@ -18,8 +18,8 @@
   <property name="SleeperIsBossVolume" value="False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,2,0" />
   <property name="EditorGroups" value="remnant, commercial, industrial" />
-  <property name="AllowedTownships" value="rural,wilderness" />
-  <property name="Zoning" value="Commercial" />
+  <property name="AllowedTownships" value="rural,wilderness,town,industrial,city" />
+  <property name="Zoning" value="downtown, residentialnew" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="SleeperIsQuestExclude" value="False,False,False,False" />
   <property class="Stats">
