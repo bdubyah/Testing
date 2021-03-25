@@ -4413,7 +4413,8 @@
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="#@modfolder:Resources/flare.unity3d?flareround"/>
 			<property name="DropScale" value=".05"/>
-			<property name="Material" value="Mmetal"/>
+			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="10"/>
 			<property name="IsSticky" value="false"/>
 			<property name="StickyOffset" value="0.04"/>
 			<property name="Stacknumber" value="25"/>
@@ -4450,6 +4451,7 @@
 			<property name="DropMeshfile" value="#@modfolder:Resources/LaserPistol1.unity3d?ammoEC1"/>
 			<property name="DropScale" value="2"/>
 			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="250"/>
 			<property name="EconomicValue" value="35"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -4486,6 +4488,7 @@
 			<property name="DropMeshfile" value="#@modfolder:Resources/LaserRifle1.unity3d?ammoMFC1"/>
 			<property name="DropScale" value="2"/>
 			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="250"/>
 			<property name="EconomicValue" value="35"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -4523,6 +4526,7 @@
 			<property name="DropMeshfile" value="#@modfolder:Resources/LaserRifle1.unity3d?ammoMFC1"/>
 			<property name="DropScale" value="2"/>
 			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="35"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -4560,6 +4564,7 @@
 			<property name="DropMeshfile" value="#@modfolder:Resources/P1.unity3d?ammoPEC1"/>
 			<property name="DropScale" value="2"/>
 			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="250"/>
 			<property name="EconomicValue" value="35"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -4596,6 +4601,7 @@
 			<property name="DropMeshfile" value="#@modfolder:Resources/P1.unity3d?ammoPMFC1"/>
 			<property name="DropScale" value="2"/>
 			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="250"/>
 			<property name="EconomicValue" value="35"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -4635,6 +4641,7 @@
 			<property name="IsSticky" value="false"/>
 			<property name="StickyOffset" value="0.5"/>
 			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="250"/>
 			<property name="EconomicValue" value="35"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -4675,6 +4682,7 @@
 			<property name="IsSticky" value="false"/>
 			<property name="StickyOffset" value="0.5"/>
 			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="250"/>
 			<property name="EconomicValue" value="55"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -4710,6 +4718,7 @@
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="250"/>
 			<property name="EconomicValue" value="25"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -4755,7 +4764,8 @@
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="DescriptionKey" value="ammoNukeDesc"/>
 			<property name="CustomIcon" value="ammoNuke"/>
-			<property name="Material" value="Mmetal"/>
+			<property name="Material" value="MresourceForgedIron"/>
+			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="20"/>
 			<property name="EconomicValue" value="500"/>
 			<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -4781,13 +4791,49 @@
 				<passive_effect name="ProjectileStickChance" operation="base_set" value="0"/>
 			</effect_group>
 		</item>
+		<item name="ammoNukeAP">
+			<property name="DisplayType" value="ammoLauncher"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Fatman1.unity3d?ammoNuke"/>
+			<property name="HoldType" value="45"/>
+			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="DescriptionKey" value="ammoNukeAPDesc"/>
+			<property name="CustomIcon" value="ammoNuke"/>
+			<property name="CustomIconTint" value="0,100,0"/>
+			<property name="Material" value="MresourceForgedIron"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="450"/>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property class="Action1">
+				<property name="Class" value="Projectile"/>
+				<property name="Explosion.ParticleIndex" value="6"/>
+				<property name="Explosion.RadiusBlocks" value="10"/>
+				<property name="Explosion.RadiusEntities" value="13"/>
+				<property name="Explosion.DamageBonus.water" value="0"/>
+				<property name="Gravity" value="-10"/>
+				<property name="FlyTime" value="0"/>
+				<property name="LifeTime" value="18"/>
+			</property>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<display_value name="dExDamageBlock" value="1"/>
+				<passive_effect name="EntityDamage" operation="base_set" value="750"/>
+				<display_value name="dExDamageEntity" value="750"/>
+				<passive_effect name="ProjectileVelocity" operation="base_set" value="28"/>
+				<display_value name="dExRadius" value="13"/>
+				<passive_effect name="ProjectileStickChance" operation="base_set" value="0"/>
+			</effect_group>
+		</item>
 		<item name="ammo40mmAP">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="Meshfile" value="#@modfolder:Resources/m79.unity3d?40mmHE"/>
 			<property name="HoldType" value="45"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="Mmetal"/>
+			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="20"/>
 			<property name="EconomicValue" value="45"/>
 			<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -4818,7 +4864,8 @@
 			<property name="HoldType" value="45"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="Mmetal"/>
+			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="20"/>
 			<property name="EconomicValue" value="45"/>
 			<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -4849,7 +4896,8 @@
 			<property name="HoldType" value="45"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="Mmetal"/>
+			<property name="Material" value="MresourceScrapIron"/>
+			<property name="Weight" value="15"/>
 			<property name="Stacknumber" value="20"/>
 			<property name="IsSticky" value="true"/>
 			<property name="StickyOffset" value="-.3"/>
@@ -4873,41 +4921,7 @@
 				<passive_effect name="ProjectileStickChance" operation="base_set" value="1" tags="earth,metal,cloth,stone,wood"/>
 				<passive_effect name="ProjectileStickChance" operation="perc_set" value="0" tags="glass"/>
 			</effect_group>
-		</item>
-		<item name="ammoNukeAP">
-			<property name="DisplayType" value="ammoLauncher"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Fatman1.unity3d?ammoNuke"/>
-			<property name="HoldType" value="45"/>
-			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
-			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="DescriptionKey" value="ammoNukeAPDesc"/>
-			<property name="CustomIcon" value="ammoNuke"/>
-			<property name="CustomIconTint" value="0,100,0"/>
-			<property name="Material" value="Mmetal"/>
-			<property name="Stacknumber" value="20"/>
-			<property name="EconomicValue" value="450"/>
-			<property name="CraftingSkillGroup" value="craftSkillScience"/>
-			<property name="Group" value="Ammo/Weapons"/>
-			<property class="Action1">
-				<property name="Class" value="Projectile"/>
-				<property name="Explosion.ParticleIndex" value="6"/>
-				<property name="Explosion.RadiusBlocks" value="10"/>
-				<property name="Explosion.RadiusEntities" value="13"/>
-				<property name="Explosion.DamageBonus.water" value="0"/>
-				<property name="Gravity" value="-10"/>
-				<property name="FlyTime" value="0"/>
-				<property name="LifeTime" value="18"/>
-			</property>
-			<effect_group name="Base Effects" tiered="false">
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
-				<display_value name="dExDamageBlock" value="1"/>
-				<passive_effect name="EntityDamage" operation="base_set" value="750"/>
-				<display_value name="dExDamageEntity" value="750"/>
-				<passive_effect name="ProjectileVelocity" operation="base_set" value="28"/>
-				<display_value name="dExRadius" value="13"/>
-				<passive_effect name="ProjectileStickChance" operation="base_set" value="0"/>
-			</effect_group>
-		</item>
+		</item>		
 		<item name="ammoBowlingball">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Fatman1.unity3d?ammoBowlingball"/>
@@ -4916,7 +4930,8 @@
 			<property name="DropMeshfile" value="#@modfolder:Resources/Fatman1.unity3d?ammoBowlingball"/>
 			<property name="DescriptionKey" value="ammoBowlingballDesc"/>
 			<property name="CustomIcon" value="ammoBowlingball"/>
-			<property name="Material" value="Mmetal"/>
+			<property name="Material" value="MresourceScrapPolymers"/>
+			<property name="Weight" value="15"/>
 			<property name="IsSticky" value="true"/>
 			<property name="StickyOffset" value="-.3"/>
 			<property name="StickyColliderUp" value="2"/>
@@ -4957,7 +4972,8 @@
 			<property name="HoldType" value="45"/>
 			<property name="HandMeshfile" value="#@modfolder:Resources/SpikeTest.unity3d?Spike"/>
 			<property name="DropMeshfile" value="#@modfolder:Resources/SpikeTest.unity3d?Spike"/>
-			<property name="Material" value="Mmetal"/>
+			<property name="Material" value="MresourceForgedSteel"/>
+			<property name="Weight" value="1"/>
 			<property name="IsSticky" value="true"/>
 			<property name="StickyOffset" value="0.04"/>
 			<property name="Stacknumber" value="25"/>
@@ -5843,7 +5859,7 @@
 				<passive_effect name="WeaponHandling" operation="base_set" value=".9" tags="perkDeadEye"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="400,600" tier="1,6" tags="perkDeadEye"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
-				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
 					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
 				</triggered_effect>
 			</effect_group>

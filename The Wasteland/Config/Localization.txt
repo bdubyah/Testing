@@ -556,8 +556,8 @@ vehicleVertibirdplaceableDesc,vehicles,item,EnChanged,Old military transport cho
 vehicleVertibirdchassisSchematic,items,Part,EnChanged,Vertibird Chassis Schematic
 vehicleVertibirdenginesSchematic,items,Part,EnChanged,Vertibird Engines Schematic
 
-RaiderLeaderLoot,blocks,Container,New,Raider Leader's Loot
-RaiderLeaderLootDesc,blocks,Container,New,Raider Leader's Loot
+RaiderLeaderLoot,blocks,Container,New,Leader's Loot
+RaiderLeaderLootDesc,blocks,Container,New,Leader's Loot
 resourcePowerArmorRepairKit,item,Items,New,Power Armor Repair Kit
 resourcePowerArmorRepairKitDesc,item,Items,New,Resource kit used to repair Power Armor.
 powerArmorMaster1Desc,armor,Armor,New,"A piece of Power Armor. When anything less than a full set is equipped, there is a mobility penalty. But when a full set is worn, you will get a small movement bonus. Repairs with Power Armor Repair Kit."

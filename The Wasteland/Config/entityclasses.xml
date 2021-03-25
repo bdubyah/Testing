@@ -1552,7 +1552,7 @@
 			<property name="LegCrawlerThreshold" value="0"/>
 			<property name="MoveSpeed" value="0.1"/>
 			<!-- Just shambling around -->
-			<property name="MoveSpeedAggro" value="0.4, 1.25"/>
+			<property name="MoveSpeedAggro" value="0.4, 1.15"/>
 			<!-- Chasing a target min/max (like day or night)-->
 			<property name="MoveSpeedRand" value=".1, .25"/>
 			<!-- Rand added to min aggro speed -->
@@ -1700,7 +1700,7 @@
 			<property name="DismemberMultiplierArms" value=".1"/>
 			<property name="DismemberMultiplierLegs" value=".1"/>
 			<property name="PainResistPerHit" value="3"/>
-			<property name="MoveSpeedAggro" value=".5, 1.25"/>
+			<property name="MoveSpeedAggro" value=".5, 1.05"/>
 			<property name="WalkType" value="7"/>
 			<property name="HandItem" value="meleeHandMutantBehemoth_b"/>
 			<property name="Mass" value="300"/>
@@ -1728,7 +1728,7 @@
 			<property name="DismemberMultiplierArms" value=".1"/>
 			<property name="DismemberMultiplierLegs" value=".1"/>
 			<property name="PainResistPerHit" value="3"/>
-			<property name="MoveSpeedAggro" value=".5, 1.25"/>
+			<property name="MoveSpeedAggro" value=".5, 1.05"/>
 			<property name="WalkType" value="7"/>
 			<property name="HandItem" value="meleeHandMutantBehemoth2_b"/>
 			<property name="Mass" value="300"/>
@@ -1756,7 +1756,7 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value="1.5"/>
-			<property name="MoveSpeedAggro" value=".5, 1.35"/>
+			<property name="MoveSpeedAggro" value=".5, 1.15"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropProb" value=".75"/>
@@ -1785,7 +1785,7 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value="1.5"/>
-			<property name="MoveSpeedAggro" value=".5, 1.35"/>
+			<property name="MoveSpeedAggro" value=".5, 1.15"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropProb" value=".75"/>
@@ -1814,7 +1814,7 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value="1.5"/>
-			<property name="MoveSpeedAggro" value=".5, 1.35"/>
+			<property name="MoveSpeedAggro" value=".5, 1.15"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropProb" value=".75"/>
@@ -1843,7 +1843,7 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value="1.5"/>
-			<property name="MoveSpeedAggro" value=".5, 1.35"/>
+			<property name="MoveSpeedAggro" value=".5, 1.15"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropProb" value=".75"/>
@@ -1872,7 +1872,7 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value="1.5"/>
-			<property name="MoveSpeedAggro" value=".5, 1.35"/>
+			<property name="MoveSpeedAggro" value=".5, 1.15"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropProb" value=".75"/>
@@ -1901,7 +1901,7 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value="1.5"/>
-			<property name="MoveSpeedAggro" value=".5, 1.35"/>
+			<property name="MoveSpeedAggro" value=".5, 1.15"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropProb" value=".75"/>
@@ -1930,7 +1930,7 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value="1.5"/>
-			<property name="MoveSpeedAggro" value=".5, 1.35"/>
+			<property name="MoveSpeedAggro" value=".5, 1.15"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropProb" value=".75"/>
@@ -1959,7 +1959,7 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value="1.5"/>
-			<property name="MoveSpeedAggro" value=".5, 1.35"/>
+			<property name="MoveSpeedAggro" value=".5, 1.15"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1000"/>
 			<property name="LootDropProb" value=".75"/>

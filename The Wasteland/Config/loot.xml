@@ -284,6 +284,7 @@
 			<item name="ammo9mmBulletBall" count="25" prob=".5"/>
 			<item name="ammo9mmBulletHP" count="25" prob=".5"/>
 			<item name="ammo9mmBulletAP" count="25" prob=".5"/>
+			<item group="airdropMedicine" count="2,4"/>
 			<item name="ammo44MagnumBulletBall" count="25" prob=".5"/>
 			<item name="ammo44MagnumBulletHP" count="25" prob=".5"/>
 			<item name="ammo44MagnumBulletAP" count="25" prob=".5"/>
@@ -334,7 +335,7 @@
 			<item name="ammo10mmBullet" count="20" prob=".5"/>
 			<item name="ammo10mmBulletAP" count="20" prob=".5"/>
 			<item name="ammo10mmBulletHP" count="20" prob=".5"/>
-			<item name="ammoAB" count="5,15" prob=".005"/>
+			<item name="ammoAB" count="10,15" prob=".005"/>
 		</lootcontainer>
 		<!-- Drink Carrier -->
 		<lootcontainer id="940" count="3" size="6,3" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
