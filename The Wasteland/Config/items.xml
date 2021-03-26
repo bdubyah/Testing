@@ -7220,7 +7220,7 @@
 				<!--AbrasionFeral-->
 			</effect_group>
 		</item>
-		<item name="meleeHandMutant_b">
+		<item name="meleeHandmutant_b">
 			<property name="Extends" value="meleeHandZombie01"/>
 			<property name="CreativeMode" value="None"/>
 			<property name="HoldType" value="12"/>
