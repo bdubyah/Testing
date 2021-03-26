@@ -1470,10 +1470,10 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value=".25"/>
-			<property name="MoveSpeedAggro" value=".5, 1.35"/>
+			<property name="MoveSpeedAggro" value=".5, 1.2"/>
 			<property name="HandItem" value="meleeHandZombieFeral_b"/>
 			<property name="Mass" value="200"/>
-			<property name="ExperienceGain" value="1000"/>
+			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value=".5"/>
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 			<property name="SoundRandom" value="GhoulIdle"/>
@@ -1484,7 +1484,7 @@
 			<property name="SoundSense" value="GhoulAlert"/>
 			<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="1200"/>
+				<passive_effect name="HealthMax" operation="base_set" value="1000"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="5"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="10"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>

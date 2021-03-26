@@ -257,7 +257,7 @@
 		</lootgroup>
 		<lootgroup name="NukaJunk">
 			<item name="drinkJarEmpty"/>
-			<item name="resourceBottlecapStar" count="1"/>
+			<item name="resourceBottlecapStar"/>
 			<item name="resourceBottlecaps" count="1,4"/>
 			<item name="cntLunchbox"/>
 		</lootgroup>
@@ -281,6 +281,7 @@
 		</lootcontainer>
 		<!-- Raider Leader Loot -->
 		<lootcontainer id="938" count="5" size="6,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
+			<item name="resourceBottlecapStar" count="2" prob=".2"/>
 			<item name="ammo9mmBulletBall" count="25" prob=".5"/>
 			<item name="ammo9mmBulletHP" count="25" prob=".5"/>
 			<item name="ammo9mmBulletAP" count="25" prob=".5"/>
@@ -592,7 +593,7 @@
 		<item name="ammoBowlingball" count="1,2" prob=".05"/>
 		<item name="modOilFilterSuppressor" prob="0.001"/>
 		<item group="SSGroup" prob=".1"/>
-		<item group="NukaJunk" count="1" prob=".1"/>
+		<item group="NukaJunk" count="2" prob=".2"/>
 		<item name="meleeTireIron" prob=".01"/>		
 		<item group="NukaGroup" count="1" prob=".01"/>
 	</append>

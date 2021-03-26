@@ -94,6 +94,10 @@
 			<entity name="mutantBehemoth"/>
 			<entity name="mutantBehemoth2"/>
 		</entitygroup>
+		<entitygroup name="Ghouls_b">
+			<entity name="zombieGhoul1"/>
+			<entity name="zombieFeralGhoul"/>
+		</entitygroup>
 	</append>
 	<append xpath="/entitygroups/entitygroup[ starts-with(@name, 'ZombiesAll')]">
 		<entity name="humanRaiderScoutClub" prob="0.01"/>
@@ -127,7 +131,8 @@
 		<entity name="humanSoldier4Rifle" prob="0.01"/>
 		<entity name="humanSoldier5Knife" prob="0.01"/>
 		<entity name="humanSoldier5Rifle" prob="0.01"/>
-		<entity name="zombieGhoul1" prob="0.01"/>
+		<entity name="zombieGhoul1" prob="0.015"/>
+		<entity name="zombieFeralGhoul" prob=".07"/>
 		<entity name="mutantBehemoth" prob="0.01"/>
 		<entity name="mutantBehemoth2" prob="0.01"/>
 		<entity name="mutantSM1horde1" prob="0.01"/>
@@ -151,32 +156,35 @@
 		<entity name="mutantSM1horde7" prob="0.1"/>
 		<entity name="mutantSM1horde8" prob="0.1"/>
 		<entity name="zombieGhoul1" prob="0.1"/>
+		<entity name="zombieFeralGhoul" prob=".07"/>
 	</insertAfter>
 	<insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/entity[@name='zombieBoe']">
 		<entity name="zombieGhoul1" prob=".3"/>
+		<entity name="zombieFeralGhoul" prob=".15"/>
 		<entity name="mutantBehemoth" prob=".1"/>
 		<entity name="mutantBehemoth2" prob=".1"/>
-		<entity name="mutantSM1horde1" prob="0.15"/>
-		<entity name="mutantSM1horde2" prob="0.15"/>
-		<entity name="mutantSM1horde3" prob="0.15"/>
-		<entity name="mutantSM1horde4" prob="0.15"/>
-		<entity name="mutantSM1horde5" prob="0.15"/>
-		<entity name="mutantSM1horde6" prob="0.15"/>
-		<entity name="mutantSM1horde7" prob="0.15"/>
-		<entity name="mutantSM1horde8" prob="0.15"/>
+		<entity name="mutantSM1horde1" prob="0.1"/>
+		<entity name="mutantSM1horde2" prob="0.1"/>
+		<entity name="mutantSM1horde3" prob="0.1"/>
+		<entity name="mutantSM1horde4" prob="0.1"/>
+		<entity name="mutantSM1horde5" prob="0.1"/>
+		<entity name="mutantSM1horde6" prob="0.1"/>
+		<entity name="mutantSM1horde7" prob="0.1"/>
+		<entity name="mutantSM1horde8" prob="0.1"/>
 	</insertAfter>
 	<insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/entity[@name='zombieBoeFeral']">
-		<entity name="zombieGhoul1" prob=".5"/>
-		<entity name="mutantBehemoth" prob=".2"/>
-		<entity name="mutantBehemoth2" prob=".2"/>
-		<entity name="mutantSM1horde1" prob="0.25"/>
-		<entity name="mutantSM1horde2" prob="0.25"/>
-		<entity name="mutantSM1horde3" prob="0.25"/>
-		<entity name="mutantSM1horde4" prob="0.25"/>
-		<entity name="mutantSM1horde5" prob="0.25"/>
-		<entity name="mutantSM1horde6" prob="0.25"/>
-		<entity name="mutantSM1horde7" prob="0.25"/>
-		<entity name="mutantSM1horde8" prob="0.25"/>
+		<entity name="zombieGhoul1" prob=".3"/>
+		<entity name="zombieFeralGhoul" prob=".3"/>
+		<entity name="mutantBehemoth" prob=".1"/>
+		<entity name="mutantBehemoth2" prob=".1"/>
+		<entity name="mutantSM1horde1" prob="0.1"/>
+		<entity name="mutantSM1horde2" prob="0.1"/>
+		<entity name="mutantSM1horde3" prob="0.1"/>
+		<entity name="mutantSM1horde4" prob="0.1"/>
+		<entity name="mutantSM1horde5" prob="0.1"/>
+		<entity name="mutantSM1horde6" prob="0.1"/>
+		<entity name="mutantSM1horde7" prob="0.1"/>
+		<entity name="mutantSM1horde8" prob="0.1"/>
 	</insertAfter>
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieDemolition']">
 		<entity name="mutantBehemoth" prob="0.05"/>
@@ -192,6 +200,7 @@
 		<entity name="mutantSM1horde7" prob="0.05"/>
 		<entity name="mutantSM1horde8" prob="0.05"/>
 		<entity name="zombieGhoul1" prob="0.05"/>
+		<entity name="zombieFeralGhoul" prob=".06"/>
 	</insertAfter>
 	<insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'feralHordeStageGS')]/entity[@name='zombieBoeRadiated']">
 		<entity name="mutantSM1horde1" prob="0.05"/>
@@ -203,5 +212,6 @@
 		<entity name="mutantSM1horde7" prob="0.05"/>
 		<entity name="mutantSM1horde8" prob="0.05"/>
 		<entity name="zombieGhoul1" prob="0.05"/>
+		<entity name="zombieFeralGhoul" prob=".06"/>
 	</insertAfter>
 </configs>

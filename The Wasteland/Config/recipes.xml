@@ -556,10 +556,9 @@
 			<ingredient name="ammoGasCan" count="100"/>
 			<ingredient name="resourceForgedSteel" count="3"/>
 		</recipe>
-		<recipe name="ammoBowlingball" count="1" craft_area="workbench" craft_time="60">
-			<ingredient name="resourceOil" count="1"/>
-			<ingredient name="resourceScrapPolymers" count="10"/>
-			<ingredient name="resourcePaint" count="5"/>
+		<recipe name="ammoBowlingball" count="1" craft_area="workbench" craft_time="30">
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourcePaint" count="1"/>
 			<ingredient name="resourceFishingWeight" count="3"/>
 		</recipe>
 		<recipe name="ammoNukeAP" count="1" craft_area="workbench" craft_time="25">
