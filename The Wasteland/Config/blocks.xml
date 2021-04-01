@@ -734,7 +734,7 @@
 			<drop event="Destroy" count="0"/>
 			<property name="Group" value="Tools/Traps,Science"/>
 			<property name="EconomicValue" value="97"/>
-			<property name="FilterTags" value="fdecor,ftraps"/>
+			<property name="FilterTags" value="ftraps"/>
 			<property name="SortOrder1" value="70g0"/>
 		</block>
 		<!-- WW Stuff -->

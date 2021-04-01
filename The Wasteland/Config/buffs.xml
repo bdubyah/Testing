@@ -518,6 +518,13 @@
 				<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="0"/>
 				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="2"/>
 			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSickness" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadiationSickness" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="3" buff="buffRadiationSickness1">
+					<requirement name="CVarCompare" cvar="RadiationSickness" operation="Equals" value="10"/>
+				</triggered_effect>
+			</effect_group>
 		</buff>
 		<buff name="buffInjuryKnockdownPABRtrigger" hidden="true">
 		<duration value="0"/>
@@ -557,7 +564,7 @@
 		<buff name="buffLaserShotgunNoFireTrigger" hidden="true">
 		<duration value="0"/>
 		<stack_type value="replace"/>
-		<update_rate value=".1"/>
+		<update_rate value=".01"/>
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffLaserShotgunNoFire">
 					<requirement name="RoundsInMagazine" operation="LT" value="8"/>

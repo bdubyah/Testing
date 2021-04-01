@@ -432,11 +432,11 @@
 			<property name="MaxTurnSpeed" value="250"/>
 			<property name="MoveSpeed" value="0.08"/>
 			<!-- Just shambling around -->
-			<property name="MoveSpeedAggro" value="0.2, 1.25"/>
+			<property name="MoveSpeedAggro" value="0.2, 1.15"/>
 			<!-- Chasing a target min/max (like day or night)-->
-			<property name="MoveSpeedRand" value="-.2, .25"/>
+			<property name="MoveSpeedRand" value="-.1, .15"/>
 			<!-- Rand added to min aggro speed -->
-			<property name="MoveSpeedPanic" value="0.55"/>
+			<property name="MoveSpeedPanic" value="0.35"/>
 			<property name="SwimSpeed" value="1"/>
 			<!-- A19  -->
 			<property name="SwimStrokeRate" value="1,1.5"/>
@@ -780,7 +780,7 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeBanditSupaSledge_b"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeBanditSupaSledge_b"/>
 			<property name="ExperienceGain" value="1000"/>
-			<property name="LootDropEntityClass" value="RaiderLeaderLoot"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerRaiderLeader"/>
 			<property name="LootDropProb" value=".5"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="750"/>
@@ -798,7 +798,7 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunBanditSniperRifle_b,ammoNPC762mmBulletAP_b"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunBanditSniperRifle_b,ammoNPC762mmBulletAP_b"/>
 			<property name="ExperienceGain" value="1000"/>
-			<property name="LootDropEntityClass" value="RaiderLeaderLoot"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerRaiderLeader"/>
 			<property name="LootDropProb" value=".5"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="750"/>
@@ -814,7 +814,7 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunBanditAutoShotty_b,ammoNPCShotgunShell_b"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunBanditAutoShotty_b,ammoNPCShotgunShell_b"/>
 			<property name="ExperienceGain" value="1000"/>
-			<property name="LootDropEntityClass" value="RaiderLeaderLoot"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerRaiderLeader"/>
 			<property name="LootDropProb" value=".5"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="750"/>
@@ -1251,7 +1251,7 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeBanditSupaSledge_b"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeBanditSupaSledge_b"/>
 			<property name="ExperienceGain" value="1000"/>
-			<property name="LootDropEntityClass" value="RaiderLeaderLoot"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerRaiderLeader"/>
 			<property name="LootDropProb" value=".5"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="750"/>
@@ -1269,7 +1269,7 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunBanditSniperRifle_b,ammoNPC762mmBulletAP_b"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunBanditSniperRifle_b,ammoNPC762mmBulletAP_b"/>
 			<property name="ExperienceGain" value="1000"/>
-			<property name="LootDropEntityClass" value="RaiderLeaderLoot"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerRaiderLeader"/>
 			<property name="LootDropProb" value=".5"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="750"/>
@@ -1285,7 +1285,7 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="gunBanditAutoShotty_b,ammoNPCShotgunShell_b"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="gunBanditAutoShotty_b,ammoNPCShotgunShell_b"/>
 			<property name="ExperienceGain" value="1000"/>
-			<property name="LootDropEntityClass" value="RaiderLeaderLoot"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerRaiderLeader"/>
 			<property name="LootDropProb" value=".5"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="750"/>
@@ -1449,7 +1449,7 @@
 			</effect_group>
 		</entity_class>
 		<!-- Loot Bags -->
-		<entity_class name="RaiderLeaderLoot">
+		<entity_class name="EntityLootContainerRaiderLeader">
 			<property name="HideInSpawnMenu" value="true"/>
 			<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
 			<property name="ModelType" value="Custom"/>
@@ -1461,6 +1461,30 @@
 			<property name="LootListOnDeath" value="938"/>
 			<property name="Faction" value="none"/>
 		</entity_class>
+		<entity_class name="EntityLootContainerMutant">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="ModelType" value="Custom"/>
+			<property name="Prefab" value="Backpack"/>
+			<property name="Class" value="EntityLootContainer"/>
+			<property name="Parent" value="Backpack"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="TimeStayAfterDeath" value="1200"/>
+			<property name="LootListOnDeath" value="944"/>
+			<property name="Faction" value="none"/>
+		</entity_class>
+		<entity_class name="EntityLootContainerGhoul">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="ModelType" value="Custom"/>
+			<property name="Prefab" value="Backpack"/>
+			<property name="Class" value="EntityLootContainer"/>
+			<property name="Parent" value="Backpack"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="TimeStayAfterDeath" value="1200"/>
+			<property name="LootListOnDeath" value="945"/>
+			<property name="Faction" value="none"/>
+		</entity_class>
 		<!-- Zeds -->
 		<entity_class name="zombieFeralGhoul" extends="zombieStrongTemplate_b">
 			<property name="Tags" value="entity,cp,male,zombie,feral"/>
@@ -1470,12 +1494,12 @@
 			<property name="DismemberMultiplierArms" value=".7"/>
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value=".25"/>
-			<property name="MoveSpeedAggro" value=".5, 1.2"/>
+			<property name="MoveSpeedAggro" value=".5, 1.1"/>
 			<property name="HandItem" value="meleeHandZombieFeral_b"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value=".5"/>
-			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerGhoul"/>
 			<property name="SoundRandom" value="GhoulIdle"/>
 			<property name="SoundAlert" value="GhoulAlert"/>
 			<property name="SoundAttack" value="GhoulAttack"/>
@@ -1526,7 +1550,7 @@
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value=".5"/>
-			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+			<property name="LootDropEntityClass" value="EntityLootContainerMutant"/>
 			<property name="SoundRandom" value="mutantIdle"/>
 			<property name="SoundAlert" value="mutantAlert"/>
 			<property name="SoundAttack" value="mutantAttack"/>

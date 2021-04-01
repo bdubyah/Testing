@@ -361,6 +361,8 @@ gunMiniG,items,Gun,New,Minigun,,,,,
 gunMiniGDesc,items,Gun,New,"Old, well-used minigun. Not the most modern tech, but will certainly still mow down anything in front of it.",,,,,
 gunBAR1,items,Gun,New,BAR,,,,,
 gunBAR1Desc,items,Gun,New,"An old relic of a gun.",,,,,
+gunSCAR,items,Gun,New,SCAR,,,,,
+gunSCARDesc,items,Gun,New,"Military-issue assault rifle.",,,,,
 gunm79,items,Gun,New,M-79,,,,,
 gunm79Desc,items,Gun,New,"Single-fire 40mm grenade launcher. Has AP, HE, and Smoke rounds",,,,,
 
@@ -391,6 +393,15 @@ ammo10mmBulletAPDesc,items,Gun,New,10mm AP round. Best against armored targets. 
 ammoBundle10mmBullet,items,Gun,New,Box of 10mm Ammo (100),,,,,
 ammoBundle10mmBulletHP,items,Gun,New,Box of HP 10mm Ammo (100),,,,,
 ammoBundle10mmBulletAP,items,Gun,New,Box of AP 10mm Ammo (100),,,,,
+ammo556b,items,Gun,New,5.56mm (Ammo),,,,,
+ammo556bDesc,items,Gun,New,Regular 5.56mm round.,,,,,
+ammo556bHP,items,Gun,New,5.56mm HP (Ammo),,,,,
+ammo556bHPDesc,items,Gun,New,5.56mm HP round. Best against soft targets.,,,,,
+ammo556bAP,items,Gun,New,5.56mm AP (Ammo),,,,,
+ammo556bAPDesc,items,Gun,New,5.56mm AP round. Best against armored targets.,,,,,
+ammoBundle556b,items,Gun,New,Box of 5.56mm Ammo (100),,,,,
+ammoBundle556bHP,items,Gun,New,Box of HP 5.56mm Ammo (100),,,,,
+ammoBundle556bAP,items,Gun,New,Box of AP 5.56mm Ammo (100),,,,,
 ammoAB,items,Gun,New,Alien Energy Cell (Ammo),,,,,
 ammoABDesc,items,Gun,New,Ammo used by the Alien Blaster.,,,,,
 ammoEC,items,Gun,New,Energy Cell (Ammo),,,,,
@@ -489,6 +500,8 @@ gunPlasmaRifleSchematic,items,GunRifle,New,Plasma Rifle Schematic
 gunPlasmaRifleSchematicDesc,items,GunRifle,New,Teaches you to craft the Plasma Rifle. Scales with the Advanced Engineering perk.
 gunBAR1Schematic,items,GunRifle,New,BAR Schematic
 gunBAR1SchematicDesc,items,GunRifle,New,Teaches you to craft the BAR. Scales with the Machine Gunner perk.
+gunSCARSchematic,items,GunRifle,New,SCAR Schematic
+gunSCARSchematicDesc,items,GunRifle,New,Teaches you to craft the SCAR. Scales with the Machine Gunner perk.
 gunMiniGSchematic,items,GunRifle,New,Minigun Schematic
 gunMiniGSchematicDesc,items,GunRifle,New,Teaches you to craft the Minigun. Scales with the Machine Gunner perk.
 gunm79Schematic,items,GunRifle,New,M-79 Schematic
