@@ -309,7 +309,7 @@ cntLunchboxDesc,items,Item,New,Some old lunchbox. Might be useful for something.
 resourceBottlecaps,items,Item,New,Bottlecaps,,,,,
 resourceBottlecapsDesc,items,Item,New,Bottlecaps left over from various Nuka Colas. Might be useful for something...,,,,,
 resourceBottlecapStar,items,Item,New,Sunset Sarsaparilla Star Bottlecap,,,,,
-resourceBottlecapStarDesc,items,Item,New,Very rare Sunset Sarsaparilla cap. Probably worth some coin or collect 50 and craft a reward...,,,,,
+resourceBottlecapStarDesc,items,Item,New,Very rare Sunset Sarsaparilla cap. Probably worth some coin or collect 100 and craft a reward...,,,,,
 
 
 
@@ -571,6 +571,10 @@ vehicleVertibirdenginesSchematic,items,Part,EnChanged,Vertibird Engines Schemati
 
 RaiderLeaderLoot,blocks,Container,New,Leader's Loot
 RaiderLeaderLootDesc,blocks,Container,New,Leader's Loot
+EntityLootContainerMutant,blocks,Container,New,Mutant's Loot
+EntityLootContainerMutantDesc,blocks,Container,New,Mutant's Loot
+EntityLootContainerGhoul,blocks,Container,New,Ghoul's Loot
+EntityLootContainerGhoulDesc,blocks,Container,New,Ghoul's Loot
 resourcePowerArmorRepairKit,item,Items,New,Power Armor Repair Kit
 resourcePowerArmorRepairKitDesc,item,Items,New,Resource kit used to repair Power Armor.
 powerArmorMaster1Desc,armor,Armor,New,"A piece of Power Armor. When anything less than a full set is equipped, there is a mobility penalty. But when a full set is worn, you will get a small movement bonus. Repairs with Power Armor Repair Kit."

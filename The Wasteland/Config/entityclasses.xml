@@ -1574,7 +1574,7 @@
 			<property name="DismemberMultiplierLegs" value=".2"/>
 			<property name="LegCrippleScale" value=".01"/>
 			<property name="LegCrawlerThreshold" value="0"/>
-			<property name="MoveSpeed" value="0.1"/>
+			<property name="MoveSpeed" value="0.08"/>
 			<!-- Just shambling around -->
 			<property name="MoveSpeedAggro" value="0.4, 1.15"/>
 			<!-- Chasing a target min/max (like day or night)-->
@@ -1724,7 +1724,8 @@
 			<property name="DismemberMultiplierArms" value=".1"/>
 			<property name="DismemberMultiplierLegs" value=".1"/>
 			<property name="PainResistPerHit" value="3"/>
-			<property name="MoveSpeedAggro" value=".5, 1.05"/>
+			<property name="MoveSpeedAggro" value=".5, 1.0"/>
+			<property name="MoveSpeed" value="0.07"/>
 			<property name="WalkType" value="7"/>
 			<property name="HandItem" value="meleeHandMutantBehemoth_b"/>
 			<property name="Mass" value="300"/>
@@ -1752,7 +1753,8 @@
 			<property name="DismemberMultiplierArms" value=".1"/>
 			<property name="DismemberMultiplierLegs" value=".1"/>
 			<property name="PainResistPerHit" value="3"/>
-			<property name="MoveSpeedAggro" value=".5, 1.05"/>
+			<property name="MoveSpeedAggro" value=".5, 1.0"/>
+			<property name="MoveSpeed" value="0.07"/>
 			<property name="WalkType" value="7"/>
 			<property name="HandItem" value="meleeHandMutantBehemoth2_b"/>
 			<property name="Mass" value="300"/>
