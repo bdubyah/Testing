@@ -284,6 +284,8 @@
 			<item name="ammoShotgunShell" count="25" prob=".5"/>
 			<item name="ammoShotgunSlug" count="25" prob=".5"/>
 			<item name="ammo762mmBulletBall" count="25" prob=".5"/>
+			<item group="RegularMeleeT1" prob=".5"/>
+			<item group="RegularMeleeT2" prob=".5"/>
 			<item name="ammo762mmBulletHP" count="25" prob=".5"/>
 			<item name="ammo762mmBulletAP" count="25" prob=".5"/>
 			<item name="ammoArrowFlaming" count="25" prob=".5"/>
@@ -344,6 +346,8 @@
 			<item group="RegularGunsT2" prob=".1"/>
 			<item group="EnergyAmmo" prob=".1"/>
 			<item group="LaserMods" prob=".1"/>
+			<item group="RegularMeleeT1" prob=".5"/>
+			<item group="RegularMeleeT2" prob=".5"/>
 			<item group="LegendaryPipeGuns" count="1" prob=".075"/>
 			<item group="RegularEnergyGuns" count="1" prob=".1"/>
 			<item group="LegendaryEnergyGuns" count="1" prob=".05"/>
@@ -404,6 +408,8 @@
 			<item name="ammo9mmBulletHP" count="25" prob=".5"/>
 			<item name="ammo9mmBulletAP" count="25" prob=".5"/>
 			<item group="airdropMedicine" count="2,4"/>
+			<item group="RegularMeleeT1" prob=".5"/>
+			<item group="RegularMeleeT2" prob=".5"/>
 			<item name="ammo44MagnumBulletBall" count="25" prob=".5"/>
 			<item name="ammo44MagnumBulletHP" count="25" prob=".5"/>
 			<item name="ammo44MagnumBulletAP" count="25" prob=".5"/>
@@ -500,6 +506,8 @@
 			<item name="ammo40mmHE" count="3" prob=".2"/>
 			<item name="ammo40mmAP" count="3" prob=".2"/>
 			<item name="ammo40mmSmoke" count="3" prob=".2"/>
+			<item group="RegularMeleeT1"/>
+			<item group="RegularMeleeT2"/>
 		</lootcontainer>
 	</insertAfter>
 	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupQuestChallenge']">
@@ -562,6 +570,7 @@
 		<item group="RegularMeleeT2"/>
 	</append>
 	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
+		<item group="RegularMeleeT2"/>
 		<item group="LegendaryMelee" count="1" prob=".02"/>
 	</append>
 	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']">
@@ -645,23 +654,38 @@
 		<item group="LegendaryEnergyGuns" count="1" prob=".005"/>
 		<item name="thrownNukaGrenade" count="1,2" prob=".1"/>
 		<item name="thrownCryoGrenade" count="1,2" prob=".1"/>
+		<item group="RegularMeleeT1" prob=".5"/>
+		<item group="RegularMeleeT2" prob=".5"/>
 	</append>
 	<append xpath="/lootcontainers/lootgroup[@name='groupBuriedWeaponChest']">
 		<item group="LegendaryPipeGuns" count="1" prob=".005"/>
 		<item group="LegendaryGuns" count="1" prob=".005"/>
 		<item name="thrownNukaGrenade" count="1,2" prob=".1"/>
 		<item name="thrownCryoGrenade" count="1,2" prob=".1"/>
+		<item group="RegularMeleeT1" prob=".5"/>
+		<item group="RegularMeleeT2" prob=".5"/>
 	</append>
 	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT1']">
 		<item name="ammo10mmBullet" count="5,15"/>
 		<item name="ammo10mmBulletHP" count="5,10" prob="0.6"/>
 		<item name="ammo10mmBulletAP" count="5,10" prob="0.3"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT2']">
 		<item name="ammo556b" count="5,15"/>
 		<item name="ammo556bAP" count="5,10" prob="0.6"/>
 		<item name="ammo556bHP" count="5,10" prob="0.3"/>
 	</append>
 	<append xpath="/lootcontainers/lootgroup[@name='workbenchLoot']">
 		<item name="mineBottlecapMine" count="1,3"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='rareMedicine']">
+		<item name="drugRadBGone"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='airdropMedicine']">
+		<item name="drugRadBGone" count="1,2" prob="0.3"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestMedical']">
+		<item name="drugRadBGone" count="1" prob="1.3"/>
 	</append>
 	<!-- kitchen sink, cupboards (lower), cleaning chemicals, plates, silverware, pots and pans -->
 	<append xpath="/lootcontainers/lootcontainer[@id='8']">
@@ -793,7 +817,8 @@
 	<append xpath="/lootcontainers/lootcontainer[@id='70']">
 		<item group="NukaGroup" count="1" prob=".1"/>
 		<item group="SSGroup" prob=".1"/>
-		<item group="RegularMeleeT2" prob=".01"/>
+		<item group="RegularMeleeT1" prob=".5"/>
+		<item group="RegularMeleeT2" prob=".5"/>
 		<item group="LegendaryMelee" prob=".001"/>
 		<item group="RegularGunsT1" prob=".01"/>
 	</append>
@@ -801,7 +826,7 @@
 	<append xpath="/lootcontainers/lootcontainer[@id='71']">
 		<item group="NukaGroup" count="1" prob=".1"/>
 		<item group="SSGroup" prob=".1"/>
-		<item group="RegularMeleeT2" prob=".01"/>
+		<item group="RegularMeleeT2" prob=".1"/>
 		<item group="LegendaryMelee" prob=".001"/>
 		<item group="RegularGunsT1" prob=".01"/>
 	</append>
@@ -812,10 +837,11 @@
 		<item name="drinkNukaCherry" prob=".05"/>
 		<item name="drinkNukaCola" prob="1"/>
 		<item group="SSGroup" prob=".1"/>
-		<item group="RegularMeleeT2" prob=".01"/>
-		<item group="LegendaryMelee" prob=".001"/>
-		<item group="LegendaryPipeGuns" prob=".001"/>
-		<item group="LegendaryGuns" prob=".001"/>
+		<item group="RegularMeleeT1" prob=".5"/>
+		<item group="RegularMeleeT2" prob=".5"/>
+		<item group="LegendaryMelee" prob=".01"/>
+		<item group="LegendaryPipeGuns" prob=".01"/>
+		<item group="LegendaryGuns" prob=".005"/>
 		<item group="RegularGunsT2" prob=".01"/>
 	</append>
 	<!-- army truck-->

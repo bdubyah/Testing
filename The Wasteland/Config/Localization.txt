@@ -310,6 +310,8 @@ resourceBottlecaps,items,Item,New,Bottlecaps,,,,,
 resourceBottlecapsDesc,items,Item,New,Bottlecaps left over from various Nuka Colas. Might be useful for something...,,,,,
 resourceBottlecapStar,items,Item,New,Sunset Sarsaparilla Star Bottlecap,,,,,
 resourceBottlecapStarDesc,items,Item,New,Very rare Sunset Sarsaparilla cap. Probably worth some coin or collect 100 and craft a reward...,,,,,
+drugRadBGone,items,Item,New,Rad-B-Gone,,,,,
+drugRadBGoneDesc,items,Item,New,Provides moderate relief from radiation poisoning.,,,,,
 
 
 
@@ -772,3 +774,21 @@ questLetterDesc,items,Quest,New,Some old letter that didn't make it to its inten
 cntPewPewLoot,blocks,Container,New,Hidden Stash
 
 LaserShotgunNoFireDesc,buffs,Tooltip,New,This weapon doesn't have enough cells to fire. Reload with more ammo for it function correctly.
+statCureRadiation,UI,Display,New,Cure Radiation
+buffRadiation01GetBetterDesc,buffs,Buff,New,You have treated mild radiation sickness. Continue anti-radiation medication until the poisoning is cleared up.
+buffRadiation01GetBetterName,buffs,Buff,New,Treated Mild Radiation Poisoning
+buffRadiation01UntreatedDesc,buffs,Buff,New,You have mild radiation poisoning. It will get worse wuickly if you don't find some anti-radiation medicine.
+buffRadiation01UntreatedName,buffs,Buff,New,Mild Radiation Poisoning
+buffRadiation01UntreatedTooltip,buffs,Buff,New,You are sick. Take anti-radiation medicine to avoid symptoms.
+buffRadiation02GetBetterDesc,buffs,Buff,New,You have treated serious radiation poisoning. Continue anti-radiation medication.
+buffRadiation02GetBetterName,buffs,Buff,New,Treated Radiation Poisoning
+buffRadiation02UntreatedDesc,buffs,Buff,New,You have serious radiation poisoning. If left untreated it could lead to severe radiation poisoning which can cause death. Take anti-radiation medication as soon as possible.
+buffRadiation02UntreatedName,buffs,Buff,New,Radiation Poisoning
+buffRadiation03GetBetterDesc,buffs,Buff,New,You have treated life threatening severe radiation poisoning. Continue anti-radiation medication and avoid contact with infectious substances.
+buffRadiation03GetBetterName,buffs,Buff,New,Treated Severe Radiation Poisoning
+buffRadiation03UntreatedDesc,buffs,Buff,New,You have life threatening severe radiation poisoning. Take anti-radiation medication immediately.
+buffRadiation03UntreatedName,buffs,Buff,New,Severe Radiation Poisoning
+buffRadiation04Tooltip,buffs,Buff,New,You have died from radiation poisoning.
+buffRadiationCureDisplayDesc,buffs,Buff,New,You have taken anti-radiation medication which will reduce radiation poisoning that you may be suffering. You can stack anti-radiation medication to increase duration.
+buffRadiationCureDisplayName,buffs,Buff,New,Anti-radiation Medication
+buffRadiationGettingWorseTooltip,buffs,Buff,New,Your radiation poisoning will no longer heal on its own.

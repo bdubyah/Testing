@@ -1447,44 +1447,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="400"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
 			</effect_group>
-		</entity_class>
-		<!-- Loot Bags -->
-		<entity_class name="EntityLootContainerRaiderLeader">
-			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
-			<property name="ModelType" value="Custom"/>
-			<property name="Prefab" value="Backpack"/>
-			<property name="Class" value="EntityLootContainer"/>
-			<property name="Parent" value="Backpack"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="1200"/>
-			<property name="LootListOnDeath" value="938"/>
-			<property name="Faction" value="none"/>
-		</entity_class>
-		<entity_class name="EntityLootContainerMutant">
-			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
-			<property name="ModelType" value="Custom"/>
-			<property name="Prefab" value="Backpack"/>
-			<property name="Class" value="EntityLootContainer"/>
-			<property name="Parent" value="Backpack"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="1200"/>
-			<property name="LootListOnDeath" value="944"/>
-			<property name="Faction" value="none"/>
-		</entity_class>
-		<entity_class name="EntityLootContainerGhoul">
-			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
-			<property name="ModelType" value="Custom"/>
-			<property name="Prefab" value="Backpack"/>
-			<property name="Class" value="EntityLootContainer"/>
-			<property name="Parent" value="Backpack"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="TimeStayAfterDeath" value="1200"/>
-			<property name="LootListOnDeath" value="945"/>
-			<property name="Faction" value="none"/>
-		</entity_class>
+		</entity_class>		
 		<!-- Zeds -->
 		<entity_class name="zombieFeralGhoul" extends="zombieStrongTemplate_b">
 			<property name="Tags" value="entity,cp,male,zombie,feral"/>
@@ -1495,7 +1458,7 @@
 			<property name="DismemberMultiplierLegs" value=".7"/>
 			<property name="PainResistPerHit" value=".25"/>
 			<property name="MoveSpeedAggro" value=".5, 1.1"/>
-			<property name="HandItem" value="meleeHandZombieFeral_b"/>
+			<property name="HandItem" value="meleeHandZombieFeral2_b"/>
 			<property name="Mass" value="200"/>
 			<property name="ExperienceGain" value="1500"/>
 			<property name="LootDropProb" value=".5"/>
@@ -2098,6 +2061,43 @@
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="25" />
 			</effect_group>
 		</entity_class> -->
+		<!-- Loot Bags -->
+		<entity_class name="EntityLootContainerRaiderLeader">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="ModelType" value="Custom"/>
+			<property name="Prefab" value="Backpack"/>
+			<property name="Class" value="EntityLootContainer"/>
+			<property name="Parent" value="Backpack"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="TimeStayAfterDeath" value="1200"/>
+			<property name="LootListOnDeath" value="938"/>
+			<property name="Faction" value="none"/>
+		</entity_class>
+		<entity_class name="EntityLootContainerMutant">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="ModelType" value="Custom"/>
+			<property name="Prefab" value="Backpack"/>
+			<property name="Class" value="EntityLootContainer"/>
+			<property name="Parent" value="Backpack"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="TimeStayAfterDeath" value="1200"/>
+			<property name="LootListOnDeath" value="944"/>
+			<property name="Faction" value="none"/>
+		</entity_class>
+		<entity_class name="EntityLootContainerGhoul">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Mesh" value="#Entities/LootContainers?zpackPrefab.prefab"/>
+			<property name="ModelType" value="Custom"/>
+			<property name="Prefab" value="Backpack"/>
+			<property name="Class" value="EntityLootContainer"/>
+			<property name="Parent" value="Backpack"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="TimeStayAfterDeath" value="1200"/>
+			<property name="LootListOnDeath" value="945"/>
+			<property name="Faction" value="none"/>
+		</entity_class>
 		<!-- Vehicles -->
 		<entity_class name="vehicleVertibird">
 			<property name="Tags" value="vehicle"/>

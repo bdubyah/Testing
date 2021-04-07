@@ -248,7 +248,7 @@
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="MresourceScrapIron"/>
 			<property name="Weight" value="2"/>
-			<property name="Stacknumber" value="10"/>
+			<property name="Stacknumber" value="50"/>
 			<property name="EconomicValue" value="150"/>
 			<property name="Group" value="Resources"/>
 		</item>
@@ -335,6 +335,30 @@
 				<property name="Blockname" value="cntLunchbox"/>
 			</property>
 			<property name="Group" value="Resources"/>
+		</item>
+		<item name="drugRadBGone">
+			<property name="Tags" value="medical"/>
+			<property name="HoldType" value="16"/>
+			<property name="Meshfile" value="#@modfolder:Resources/drugs1.unity3d?PillBottlerad1"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/drugs1.unity3d?PillBottlerad1"/>
+			<property name="DropScale" value="1.5"/>
+			<property name="Material" value="Morganic"/>
+			<property name="EconomicValue" value="750"/>
+			<property name="Stacknumber" value="10"/> <!-- STK loot -->
+			<property name="UnlockedBy" value=""/>
+			<property name="DisplayType" value="cureRadiation"/>
+			<property name="Group" value="Science,CFChemicals,Medical"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_painkillers"/>
+			</property>
+			<effect_group tiered="false">
+				<display_value name="dCureRadiation" value=".25"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRadiationAddCurePerc" operation="add" value="25"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffRadiationAddCure"/>
+			</effect_group>
 		</item>
 		<!-- WW Schems/Misc stuff -->
 		<item name="gunLARSchematic">
@@ -764,7 +788,7 @@
 			<property name="CustomIcon" value="ammo556b"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="EconomicValue" value="1100"/>
-			<property name="UnlockedBy" value="perkMachineGunnerComplete"/>
+			<property name="UnlockedBy" value="perkAutoWeaponsComplete"/>
 			<property class="Action0">
 				<property name="Create_item" value="ammo556b"/>
 			</property>
@@ -774,7 +798,7 @@
 			<property name="CustomIcon" value="ammo556bHP"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="EconomicValue" value="1600"/>
-			<property name="UnlockedBy" value="perkMachineGunnerComplete"/>
+			<property name="UnlockedBy" value="perkAutoWeaponsComplete"/>
 			<property class="Action0">
 				<property name="Create_item" value="ammo556bHP"/>
 			</property>
@@ -784,7 +808,7 @@
 			<property name="CustomIcon" value="ammo556bAP"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="EconomicValue" value="1600"/>
-			<property name="UnlockedBy" value="perkMachineGunnerComplete"/>
+			<property name="UnlockedBy" value="perkAutoWeaponsComplete"/>
 			<property class="Action0">
 				<property name="Create_item" value="ammo556bAP"/>
 			</property>
@@ -4558,7 +4582,7 @@
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons"/>
-			<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
+			<property name="UnlockedBy" value="perkAutoWeaponsDamage"/>
 			<effect_group name="ammo10mmBulletHP" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="68" tags="perkMachineGunner"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="3" tags="perkMachineGunner"/>
@@ -4579,7 +4603,7 @@
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="300"/>
 			<property name="Group" value="Ammo/Weapons"/>
-			<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
+			<property name="UnlockedBy" value="perkAutoWeaponsDamage"/>
 			<effect_group name="ammo10mmBulletAP" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="45" tags="perkMachineGunner"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="8" tags="perkMachineGunner"/>
@@ -4856,6 +4880,7 @@
 			</effect_group>
 			<effect_group name="Base Effects2" tiered="false">
 				<requirement name="HasBuff" target="other" buff="buffCryo"/>
+				<requirement name="NotHasBuff" buff="buffCryoCritCooldown"/>
 				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
 				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffCryoCrit"/>
 			</effect_group>
@@ -4956,7 +4981,7 @@
 			<property name="Material" value="MresourceForgedIron"/>
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="20"/>
-			<property name="EconomicValue" value="500"/>
+			<property name="EconomicValue" value="4500"/>
 			<property name="CraftingSkillGroup" value="craftSkillScience"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property class="Action1">
@@ -4992,7 +5017,7 @@
 			<property name="Material" value="MresourceForgedIron"/>
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="20"/>
-			<property name="EconomicValue" value="450"/>
+			<property name="EconomicValue" value="3000"/>
 			<property name="CraftingSkillGroup" value="craftSkillScience"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property class="Action1">
@@ -7358,6 +7383,28 @@
 			</property>
 			<effect_group name="meleeHandZombieFeral" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true" buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo" weights=".11,.07,.07,.05,.29,.36,.11"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="15">
+					<!--InfectionFeral-->
+					<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="2400"/>
+				<!--AbrasionFeral-->
+			</effect_group>
+		</item>
+		<item name="meleeHandZombieFeral2_b">
+			<property name="Extends" value="meleeHandZombie01"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="HoldType" value="12"/>
+			<property class="Action0">
+				<property name="DamageEntity" value="25"/>
+				<property name="DamageBlock" value="30"/>
+				<property name="Range" value="1.75"/>
+				<property name="Buff" value="buffRadiationCatch"/>
+			</property>
+			<effect_group name="meleeHandZombieFeral" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffRadiationCatch"/>
 				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true" buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo" weights=".11,.07,.07,.05,.29,.36,.11"/>
 				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="15">
 					<!--InfectionFeral-->
