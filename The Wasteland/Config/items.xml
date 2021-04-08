@@ -1423,7 +1423,7 @@
 			<property name="Tags" value="machete,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 			<property name="DisplayType" value="meleeKnife"/>
 			<property name="HoldType" value="47"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Melee1.unity3d?Machete1"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Melee1.unity3d?Machete2"/>
 			<property name="Material" value="MmeleeWpnBladeParts"/>
 			<property name="Weight" value="1"/>
 			<property name="RepairTools" value="resourceForgedIron"/>

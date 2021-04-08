@@ -546,6 +546,8 @@ meleeSupaSledge,items,Melee,KgNone,Supa Sledge,,,,,
 meleeSupaSledgeDesc,items,Melee,KgNone,"Modified sledgehammer. Heavy and slow, but very powerful.",,,,,
 meleeGuitar,items,Melee,KgNone,Guitar,,,,,
 meleeGuitarDesc,items,Melee,KgNone,"An old guitar. Probably only good for cracking skulls at this point.",,,,,
+meleeMachete1,items,Melee,KgNone,Survival Machete,,,,,
+meleeMachete1Desc,items,Melee,KgNone,"A worn, short machete.",,,,,
 
 meleeTheBreak,items,Melee,KgNone,[FFC300]The Break[-],,,,,
 meleeTheBreakDesc,items,Melee,KgNone,A custom pool cue. Higher damage and dismemberment.,,,,,
