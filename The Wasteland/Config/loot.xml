@@ -228,6 +228,7 @@
 			<item name="modPowerArmorLegsJumpBoost"/>
 			<item name="modPowerArmorBootsGyros"/>
 			<item name="modPowerArmorBootsDampener"/>
+			<item name="modPowerArmorRadResistant"/>			
 		</lootgroup>
 		<!-- Nuka Stuff -->
 		<lootgroup name="NukaGroup">
@@ -418,7 +419,6 @@
 			<item name="ammo762mmBulletBall" count="25" prob=".5"/>
 			<item name="ammo762mmBulletHP" count="25" prob=".5"/>
 			<item name="ammo762mmBulletAP" count="25" prob=".5"/>
-			<item name="ammoArrowFlaming" count="25" prob=".5"/>
 			<item name="ammo10mmBullet" count="20" prob=".5"/>
 			<item name="ammo10mmBulletAP" count="20" prob=".5"/>
 			<item name="ammo10mmBulletHP" count="20" prob=".5"/>
@@ -432,7 +432,7 @@
 			<item name="thrownGrenade" count="5" prob=".5"/>
 			<item name="thrownGrenadeContact" count="5" prob=".5"/>
 			<item name="thrownTimedCharge" count="5" prob=".5"/>
-			<item group="cannedfood" prob=".8"/>
+			<item group="cannedfood" count="5" prob=".8"/>
 			<item name="drinkJarBeer" count="1" prob=".8"/>
 			<item name="drinkJarBoiledWater" count="1" prob=".8"/>
 			<item group="booksAllScaled" count="1" prob=".5"/>
@@ -454,6 +454,17 @@
 			<item name="ammo40mmHE" count="3" prob=".2"/>
 			<item name="ammo40mmAP" count="3" prob=".2"/>
 			<item name="ammo40mmSmoke" count="3" prob=".2"/>
+			<item group="PA1" prob=".2"/>
+			<item group="PA2" prob=".2"/>
+			<item group="PA3" prob=".2"/>
+			<item group="PA4" prob=".2"/>
+			<item group="PA5" prob=".2"/>
+			<item group="PA6" prob=".2"/>
+			<item group="PA7" prob=".2"/>
+			<item group="PA8" prob=".2"/>
+			<item group="PA9" prob=".2"/>
+			<item group="PA10" prob=".2"/>
+			<item group="PA11" prob=".2"/>
 		</lootcontainer>
 		<!-- Feral Ghoul Loot -->
 		<lootcontainer id="945" count="3" size="6,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
@@ -599,6 +610,19 @@
 		<item name="ammoPEC" count="25" loot_prob_template="QuestT3Prob"/>
 		<item name="ammoPMFC" count="25" loot_prob_template="QuestT3Prob"/>
 		<item name="ammoSMFC" count="64" loot_prob_template="QuestT3Prob"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestArmorT2']">
+		<item group="PA1"/>
+		<item group="PA2"/>
+		<item group="PA3"/>
+		<item group="PA4"/>
+		<item group="PA5"/>
+		<item group="PA6"/>
+		<item group="PA7"/>
+		<item group="PA8"/>
+		<item group="PA9"/>
+		<item group="PA10"/>
+		<item group="PA11"/>
 	</append>
 	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT1']">
 		<item group="RegularWeaponSchemsT1"/>

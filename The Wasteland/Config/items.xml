@@ -1,4 +1,5 @@
 <configs>
+	<set xpath="/items/item[@name='gunMGT2TacticalAR']/property[@class='Action0']/property[@name='Magazine_items']/@value">ammo556b,ammo556bHP,ammo556bAP</set>
 	<append xpath="/items">
 		<!-- Nuka Stuff -->
 		<item name="drinkNukaCola">
@@ -345,7 +346,7 @@
 			<property name="Material" value="Morganic"/>
 			<property name="EconomicValue" value="750"/>
 			<property name="Stacknumber" value="10"/> <!-- STK loot -->
-			<property name="UnlockedBy" value=""/>
+			<property name="UnlockedBy" value="perkPhysician,drugRadBGoneSchematic"/>
 			<property name="DisplayType" value="cureRadiation"/>
 			<property name="Group" value="Science,CFChemicals,Medical"/>
 			<property class="Action0">
@@ -640,6 +641,16 @@
 			<property name="Unlocks" value="modLaserScope"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modLaserScope" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		<item name="drugRadBGoneSchematic">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="drugRadBGone"/>
+			<property name="Unlocks" value="drugRadBGone"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugRadBGone" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
@@ -3226,7 +3237,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value=".150"/>
-				<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP"/>
+				<property name="Magazine_items" value="ammo556b,ammo556bHP,ammo556bAP"/>
 				<property name="Sound_start" value="MGfire"/>
 				<property name="Sound_loop" value="MGfire"/>
 				<property name="Sound_empty" value="dryfire"/>
@@ -3999,8 +4010,8 @@
 				<passive_effect name="EntityDamage" operation="base_add" value="45"/>
 				<passive_effect name="DamageFalloffRange" operation="base_add" value="20"/>
 				<passive_effect name="MaxRange" operation="base_set" value="30"/>
-				<passive_effect name="RoundsPerMinute" operation="base_set" value="45" />
-				<passive_effect name="BurstRoundCount" operation="base_set" value="8" tags="perkAdvancedEngineering"/>
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="45"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="8"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="16"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1.15" tags="perkAdvancedEngineering"/>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
@@ -4090,7 +4101,7 @@
 				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkAdvancedEngineering"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
-				<passive_effect name="RoundsPerMinute" operation="base_set" value="500" tags="perkAdvancedEngineering"/>
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="150" tags="perkAdvancedEngineering"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="16"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".85"/>
@@ -4918,8 +4929,8 @@
 				<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="wood,cloth"/>
 				<passive_effect name="ProjectileVelocity" operation="base_set" value="65"/>
 				<passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
-				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="otherAOE" range=".75" buff="buffShocked">
-					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="5"/>
+				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="otherAOE" range="1" buff="buffShocked">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="10"/>
 				</triggered_effect>
 			</effect_group>
 		</item>
@@ -5824,7 +5835,7 @@
 			</effect_group>
 		</item>
 		<item name="gunAlienBlaster">
-			<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,canHaveCosmetic,perkAdvancedEngineering,Alien"/>
+			<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,canHaveCosmetic,Alien"/>
 			<property name="DisplayType" value="EnergyDisplay"/>
 			<property name="CustomIcon" value="gunAlienBlaster"/>
 			<property name="HoldType" value="1"/>
@@ -5868,24 +5879,24 @@
 				<property name="ScopeCameraOffset" value="0,-.065,0"/>
 			</property>
 			<effect_group name="gunAlienBlaster">
-				<passive_effect name="MaxRange" operation="base_set" value="50"/>
-				<passive_effect name="EntityDamage" operation="base_add" value="94"/>
-				<passive_effect name="DamageFalloffRange" operation="base_set" value="15"/>
+				<passive_effect name="MaxRange" operation="base_set" value="60"/>
+				<passive_effect name="EntityDamage" operation="base_add" value="104"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
-				<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="120"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="16"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1.1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0" tags="EntityDamage"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-				<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkAdvancedEngineering"/>
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2"/>
 				<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
 				<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
@@ -5958,13 +5969,13 @@
 				<passive_effect name="MaxRange" operation="base_set" value="100" tags="perkAdvancedEngineering"/>
 				<passive_effect name="DamageFalloffRange" operation="base_set" value="50" tags="perkAdvancedEngineering"/>
 				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkAdvancedEngineering"/>
-				<passive_effect name="EntityDamage" operation="base_add" value="35" tags="perkAdvancedEngineering"/>
+				<passive_effect name="EntityDamage" operation="base_add" value="35" tags="perkAdvancedEngineering,Cryo"/>
 				<passive_effect name="RoundsPerMinute" operation="base_set" value="120" tags="perkAdvancedEngineering"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkAdvancedEngineering"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage,BlockDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkAdvancedEngineering"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkAdvancedEngineering"/>
@@ -6179,7 +6190,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value=".150"/>
-				<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP"/>
+				<property name="Magazine_items" value="ammo556b,ammo556bHP,ammo556bAP"/>
 				<property name="Sound_start" value="MGfire"/>
 				<property name="Sound_loop" value="MGfire"/>
 				<property name="Sound_empty" value="dryfire"/>
@@ -7092,7 +7103,7 @@
 				<property name="Sphere" value="1.2"/>
 				<property name="Sound_start" value="swoosh"/>
 			</property>
-			<effect_group name="meleeBanditBat">
+			<effect_group name="meleeBanditTireIron_b">
 				<passive_effect name="EntityDamage" operation="base_set" value="25"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="50"/>
 				<passive_effect name="AttacksPerMinute" operation="base_set" value="30"/>
@@ -7102,6 +7113,7 @@
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffArmorShredding"/>
 			</effect_group>
 		</item>
 		<item name="meleeMutantTireIron_b">
@@ -8929,7 +8941,7 @@
 		<item name="powerArmorHelmet_Base1">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="powerArmorMaster1"/>
-			<property name="Tags" value="head,armor,armorHead,heavyArmor,powerarmorHead,canHaveCosmetic,perkPowerArmor"/>
+			<property name="Tags" value="head,armor,armorHead,heavyArmor,powerarmorHead,canHaveCosmetic,perkPowerArmor,PowerArmorMod"/>
 			<property name="EquipSlot" value="Head"/>
 			<property class="UMA">
 				<property name="Mesh" value=""/>
@@ -9378,7 +9390,7 @@
 		<item name="powerArmorChest_Base1">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="powerArmorMaster1"/>
-			<property name="Tags" value="upperbody,chest,armor,armorChest,powerArmorChest,canHaveCosmetic,perkPowerArmor"/>
+			<property name="Tags" value="upperbody,chest,armor,armorChest,powerArmorChest,canHaveCosmetic,perkPowerArmor,PowerArmorMod"/>
 			<property name="EquipSlot" value="Chest"/>
 			<property class="UMA">
 				<property name="Mesh" value="clothes_army_shirt"/>
@@ -9918,7 +9930,7 @@
 		<item name="powerArmorArms_Base1">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="powerArmorMaster1"/>
-			<property name="Tags" value="upperbody,hands,armor,armorHands,powerArmorArms,canHaveCosmetic,perkPowerArmor"/>
+			<property name="Tags" value="upperbody,hands,armor,armorHands,powerArmorArms,canHaveCosmetic,perkPowerArmor,PowerArmorMod"/>
 			<property name="EquipSlot" value="Hands"/>
 			<property class="UMA">
 				<property name="Mesh" value="armor_kevlar_gloves"/>
@@ -10458,7 +10470,7 @@
 		<item name="powerArmorLegs_Base1">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="powerArmorMaster1"/>
-			<property name="Tags" value="lowerbody,legs,armor,armorLegs,powerarmorLegs,canHaveCosmetic,perkPowerArmor"/>
+			<property name="Tags" value="lowerbody,legs,armor,armorLegs,powerarmorLegs,canHaveCosmetic,perkPowerArmor,PowerArmorMod"/>
 			<property name="EquipSlot" value="Legs"/>
 			<property class="UMA">
 				<property name="Mesh" value="clothes_army_pants"/>
@@ -10932,7 +10944,7 @@
 		<item name="powerArmorBoots_Base1">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="powerArmorMaster1"/>
-			<property name="Tags" value="lowerbody,feet,armor,armorFeet,powerArmorBoots,canHaveCosmetic,perkPowerArmor"/>
+			<property name="Tags" value="lowerbody,feet,armor,armorFeet,powerArmorBoots,canHaveCosmetic,perkPowerArmor,PowerArmorMod"/>
 			<property name="EquipSlot" value="Feet"/>
 			<property class="UMA">
 				<property name="Mesh" value=""/>

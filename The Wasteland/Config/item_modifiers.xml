@@ -719,7 +719,7 @@
 			</effect_group>
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
-		<!-- Power Armor Mods -->
+		<!-- Location Specific Power Armor Mods -->
 		<item_modifier name="modPowerArmorHelmetRadar" installable_tags="powerarmorHead" modifier_tags="PAhelmet" blocked_tags="noMods,clothing" type="attachment">
 			<property name="UnlockedBy" value=""/>
 			<property name="CustomIcon" value="modPowerArmor"/>
@@ -875,6 +875,20 @@
 			<property name="Material" value="Msteel"/>
 			<effect_group tiered="false">
 				<passive_effect name="FallDamageReduction" operation="perc_add" value=".75"/>
+			</effect_group>
+		</item_modifier>
+		<!-- General Power Armor Mods -->
+		<item_modifier name="modPowerArmorRadResistant" installable_tags="PowerArmorMod" modifier_tags="waterPurifier" blocked_tags="noMods" type="attachment">
+			<property name="UnlockedBy" value=""/>
+			<property name="CustomIcon" value="modPowerArmor"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Mods"/>
+			<property name="EconomicValue" value="500"/>	
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+
+			<effect_group tiered="false">
+				<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffRadiationCatch"/>
 			</effect_group>
 		</item_modifier>
 	</append>

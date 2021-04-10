@@ -682,6 +682,8 @@ modPowerArmorBootsGyros,item_modifiers,mod,New,Power Armor Enhanced Gyros,,,,,
 modPowerArmorBootsGyrosDesc,item_modifiers,mod,New,Can be installed in Power Armor Boots. Allows you to run faster while using less stamina.,,,,,
 modPowerArmorBootsDampener,item_modifiers,mod,New,Power Armor Fall Dampener,,,,,
 modPowerArmorBootsDampenerDesc,item_modifiers,mod,New,Can be installed in Power Armor Boots. Reduces fall damage by 75%.,,,,,
+modPowerArmorRadResistant,item_modifiers,mod,New,Power Armor Rad Resistant,,,,,
+modPowerArmorRadResistantDesc,item_modifiers,mod,New,Can be installed in Power Armor. Makes you immune to radiation sickness from ghouls.,,,,,
 
 perkWildWasteland,perk,book,New,Wild Wasteland
 perkWildWastelandDesc,perk,book,New,A collection of random knowledge to give you various benefits out in the Wasteland.

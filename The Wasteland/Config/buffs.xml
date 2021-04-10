@@ -849,7 +849,7 @@
 		<buff name="buffLaserShotgunNoFireTrigger" hidden="true">
 			<duration value="0"/>
 			<stack_type value="replace"/>
-			<update_rate value=".01"/>
+			<update_rate value=".1"/>
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffLaserShotgunNoFire">
 					<requirement name="RoundsInMagazine" operation="LT" value="8"/>
@@ -861,8 +861,7 @@
 			<duration value="0"/>
 			<stack_type value="replace"/>
 			<update_rate value=".1"/>
-			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffLaserShotgunNoFireTrigger"/>
+			<effect_group>				
 				<requirement name="HoldingItemHasTags" tags="LNF"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="0"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffLaserShotgunNoFire">
@@ -889,8 +888,7 @@
 			<duration value="0"/>
 			<stack_type value="replace"/>
 			<update_rate value=".1"/>
-			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffAERNoFireTrigger"/>
+			<effect_group>				
 				<requirement name="HoldingItemHasTags" tags="LNF"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="0"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffAERNoFire">

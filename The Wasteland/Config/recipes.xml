@@ -44,6 +44,12 @@
 			<ingredient name="resourceGunPowder" count="15"/>
 			<ingredient name="cntLunchbox" count="1"/>
 		</recipe>
+		<recipe name="drugRadBGone" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+			<ingredient name="resourceNuclearMaterials" count="2"/>
+			<ingredient name="drugAntibiotics" count="2"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
 		<!-- Furniture -->
 		<recipe name="cntAmmoBoxPlayer" count="1" craft_area="workbench" craft_time="30" tags="learnable">
 			<ingredient name="resourceForgedIron" count="10"/>
