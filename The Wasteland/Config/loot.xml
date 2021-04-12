@@ -137,7 +137,7 @@
 			<item name="ammoPEC" count="25,50"/>
 			<item name="ammoPMFC" count="25,50"/>
 			<item name="gunAlienBlaster" count="1"/>
-			<item name="ammoAB" count="75,150"/>
+			<item name="ammoAB" count="50,100"/>
 		</lootgroup>
 		<lootgroup name="PA1" >
 			<item name="powerArmorArms_Model_A1"/>

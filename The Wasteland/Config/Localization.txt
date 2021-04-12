@@ -573,8 +573,8 @@ vehicleVertibirdplaceableDesc,vehicles,item,EnChanged,Old military transport cho
 vehicleVertibirdchassisSchematic,items,Part,EnChanged,Vertibird Chassis Schematic
 vehicleVertibirdenginesSchematic,items,Part,EnChanged,Vertibird Engines Schematic
 
-RaiderLeaderLoot,blocks,Container,New,Leader's Loot
-RaiderLeaderLootDesc,blocks,Container,New,Leader's Loot
+EntityLootContainerRaiderLeader,blocks,Container,New,Leader's Loot
+EntityLootContainerRaiderLeaderDesc,blocks,Container,New,Leader's Loot
 EntityLootContainerMutant,blocks,Container,New,Mutant's Loot
 EntityLootContainerMutantDesc,blocks,Container,New,Mutant's Loot
 EntityLootContainerGhoul,blocks,Container,New,Ghoul's Loot
